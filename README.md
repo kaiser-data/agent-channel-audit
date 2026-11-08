@@ -9,7 +9,7 @@
 
 Apart Research · Swarm Alignment Hackathon · 6–8 Nov 2026 · Track 4 (Multi-Agent Oversight and Control)
 
-[Paper (PDF)](paper/main.pdf) · [Explainer video (3:02)](video/out/agent-channel-audit-16x9.mp4) · [Frozen protocol](PROTOCOL.md) · [Lab log](LOG.md)
+[Paper (PDF)](paper/main.pdf) · [Companion: Channel Displacement](https://github.com/kaiser-data/channel-displacement) · [Explainer video (3:02)](video/out/agent-channel-audit-16x9.mp4) · [Frozen protocol](PROTOCOL.md) · [Lab log](LOG.md)
 
 </div>
 
