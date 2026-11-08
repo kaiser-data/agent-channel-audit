@@ -106,6 +106,10 @@ def build(src, out, extra):
     open(out, "w").write("\n".join(parts))
 
 
+TEXT_POSITIONING = (open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "main.tex")).read()
+                    .split("\\noindent What differs from the sprint", 1)[1].split("\n", 1)[0])
+TEXT_POSITIONING = "\\noindent What differs from the sprint" + TEXT_POSITIONING
+
 P1 = dict(
     limits="Limitations", methods="Setting and method",
     related=lambda s: clean(s["Related work"]),
@@ -129,7 +133,13 @@ P1 = dict(
     secrefs={"sec:limits": "5", "app:dev": "B"},
     to_appendix=[("tab:preds", "Predictions across every run")],
     subs=[("width=\\linewidth]{fig2-real-wiki", "width=0.65\\linewidth]{fig2-real-wiki"),
-          ("width=\\linewidth]{fig1-participants", "width=0.9\\linewidth]{fig1-participants")],
+          ("width=\\linewidth]{fig1-participants", "width=0.9\\linewidth]{fig1-participants"),
+          # page limit: the template's title page costs ~2/3 page, so the sprint-positioning paragraph
+          # moves into Related Work as one sentence
+          (TEXT_POSITIONING, ""),
+          ("Agent Channel Audit is one concrete answer for one class of shared resource.",
+           "Agent Channel Audit is one concrete answer for one class of shared resource. Unlike the sprint's suggested "
+           "gateway monitor and post-hoc swarm forensics, it watches the shared resource itself, as the channel forms.")],
 )
 P2 = dict(
     limits="Limitations", methods="Sandbox and design",
