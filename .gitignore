@@ -10,3 +10,5 @@ video/out/tts/
 video/out/*.log
 video/out/*.bak
 video/modal/__pycache__/
+# template build intermediates (downloaded template, generated .tex)
+paper/template-build/

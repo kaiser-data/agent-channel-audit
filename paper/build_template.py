@@ -87,6 +87,32 @@ def main():
             elif v == "Affiliation":
                 t.text = a.affil if first_aff else "\u00a0"
                 first_aff = False
+        # the Google Docs export gives the author grid a 1.4-inch width (690 dxa per column), so every renderer
+        # except Google Docs wraps names letter by letter: one author -> one wide column, drop the empty slots
+        for grid in tb._tbl.iter(qn("w:tbl")):
+            if grid is tb._tbl or a.author not in "".join(t.text or "" for t in grid.iter(qn("w:t"))):
+                continue
+            if any(x is not grid for x in grid.iter(qn("w:tbl"))):
+                continue  # a wrapper table; the grid itself is the innermost one
+            for tr in grid.findall(qn("w:tr")):
+                tcs = tr.findall(qn("w:tc"))
+                keep = [tc for tc in tcs if a.author in "".join(t.text or "" for t in tc.iter(qn("w:t")))]
+                if not keep:
+                    grid.remove(tr)
+                    continue
+                for tc in tcs:
+                    if tc is not keep[0]:
+                        tr.remove(tc)
+            tg = grid.find(qn("w:tblGrid"))
+            for gc in tg.findall(qn("w:gridCol"))[1:]:
+                tg.remove(gc)
+            for gc in grid.iter(qn("w:gridCol")):
+                gc.set(qn("w:w"), "6000")
+            grid.find(qn("w:tblPr")).find(qn("w:tblW")).set(qn("w:w"), "6000")
+            for tcw in grid.iter(qn("w:tcW")):
+                tcw.set(qn("w:w"), "6000")
+            for gch in grid.iter(qn("w:tblGridChange")):
+                gch.getparent().remove(gch)
         abstract = open(a.abstract).read().strip()
         for cell in walk_cells(tb):
             if "Summarize your project" in cell.text:
@@ -120,6 +146,29 @@ def main():
                 blip.set(qn("r:embed"), doc.part.relate_to(part, RT.IMAGE))
             sect.addprevious(new)
 
+        # --- copy styles the spliced body uses but the template lacks (above all "Compact", the table-cell
+        #     paragraph style: without it LibreOffice collapses every table into a single column)
+        have = {s.get(qn("w:styleId")) for s in doc.styles.element.iter(qn("w:style"))}
+        used = {e.get(qn("w:val")) for tag in ("w:pStyle", "w:rStyle", "w:tblStyle")
+                for e in body.iter(qn(tag))}
+        # pandoc's output inherits the template's styles and so lacks them too; take them from pandoc's default reference
+        ref_docx = f"{td}/pandoc-reference.docx"
+        with open(ref_docx, "wb") as fh:
+            subprocess.run(["pandoc", "--print-default-data-file", "reference.docx"], stdout=fh, check=True)
+        src_styles = {s.get(qn("w:styleId")): s for s in docx.Document(ref_docx).styles.element.iter(qn("w:style"))}
+        src_styles.update({s.get(qn("w:styleId")): s for s in src.styles.element.iter(qn("w:style"))})
+        todo = [u for u in used if u in src_styles]
+        while todo:  # follow basedOn chains so a copied style never points at a missing parent
+            sid = todo.pop()
+            if sid in have:
+                continue
+            s = src_styles[sid]
+            doc.styles.element.append(copy.deepcopy(s))
+            have.add(sid)
+            parent = s.find(qn("w:basedOn"))
+            if parent is not None and parent.get(qn("w:val")) in src_styles:
+                todo.append(parent.get(qn("w:val")))
+
         # --- map styles: pandoc ids -> template styles
         names = {s.name for s in doc.styles}
         for p in doc.paragraphs:
@@ -134,6 +183,17 @@ def main():
                 p.style = doc.styles["normal"]
                 for r in p.runs:
                     r.italic = True
+        # --- tables: 9 pt text, full width, columns sized to content
+        from docx.shared import Pt
+        for t in doc.tables[1:]:
+            tblPr = t._tbl.tblPr
+            w = tblPr.find(qn("w:tblW"))
+            if w is not None:
+                w.set(qn("w:type"), "pct"); w.set(qn("w:w"), "5000")
+            for cell in walk_cells(t):
+                for p in cell.paragraphs:
+                    for r in p.runs:
+                        r.font.size = Pt(9)
         doc.save(a.out)
     print("wrote", a.out)
 

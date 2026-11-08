@@ -1,8 +1,37 @@
 """Reorder each paper's (citation-numbered) LaTeX into the Apart template's section order and add missing sections."""
+import os
 import re
 import subprocess
 
-S = "/private/tmp/claude-501/-Users-marty-claude-projects-research-swarm-alignment/62544377-59b3-4c22-88e2-b71e79608b0f/scratchpad"
+# working dir holding docx.tex / p2docx.tex (citation-numbered copies of each main.tex); output goes to $S/tpl
+S = os.environ.get("TPL_BUILD", ".")
+
+
+def number_floats(tex, secrefs):
+    """Word has no \\ref: prefix captions with 'Figure N.' / 'Table N.' and replace every \\ref with its number."""
+    nums = {}
+    count = {"figure": 0, "table": 0}
+
+    def env(m):
+        kind = m.group(1)
+        count[kind] += 1
+        n = count[kind]
+        body = m.group(2)
+        lab = re.search(r"\\label\{([^}]*)\}", body)
+        if lab:
+            nums[lab.group(1)] = str(n)
+        body = body.replace("\\caption{", f"\\caption{{{kind.capitalize()} {n}. ", 1)
+        return f"\\begin{{{kind}}}{body}\\end{{{kind}}}"
+
+    tex = re.sub(r"\\begin\{(figure|table)\}(.*?)\\end\{\1\}", env, tex, flags=re.S)
+    nums.update(secrefs)
+
+    def ref(m):
+        if m.group(1) not in nums:
+            raise KeyError(f"unresolved \\ref{{{m.group(1)}}}")
+        return nums[m.group(1)]
+
+    return re.sub(r"\\ref\{([^}]*)\}", ref, tex)
 
 
 def sections(tex):
@@ -19,11 +48,15 @@ def sections(tex):
 def clean(x):
     x = re.sub(r"\\paragraph\{([^}]*)\}", r"\\textbf{\1} ", x)
     x = re.sub(r"\\label\{[^}]*\}", "", x)
+    x = re.sub(r"\\cmidrule(\([a-z]*\))?\{[^}]*\}", "", x)  # pandoc prints these as text
     return x
 
 
 def preamble(tex):
-    return tex.split("\\begin{document}")[0] + "\\begin{document}\n"
+    # drop \title/\author/\date: the template's title block carries them, pandoc would print them a second time
+    pre = tex.split("\\begin{document}")[0]
+    pre = re.sub(r"^\\(title|author|date)\{.*$", "", pre, flags=re.M)
+    return pre + "\\begin{document}\n"
 
 
 LLM = ("This project was carried out with Claude Code (Anthropic, model Claude Opus 5.5) as an agentic assistant. "
@@ -36,8 +69,21 @@ LLM = ("This project was carried out with Claude Code (Anthropic, model Claude O
 
 
 def build(src, out, extra):
-    tex = open(src).read()
+    tex = number_floats(open(src).read(), extra.get("secrefs", {}))
+    for a, b in extra.get("subs", []):  # layout-only substitutions for the Word version (e.g. figure widths)
+        assert a in tex, a
+        tex = tex.replace(a, b)
     sec = sections(tex)
+    moved = []  # floats moved to the appendix to keep the main text within the template's page limit
+    for lab, title in extra.get("to_appendix", []):
+        for k, v in sec.items():
+            m = re.search(r"\\begin\{(table|figure)\}(?:(?!\\end\{\1\}).)*?\\label\{%s\}.*?\\end\{\1\}" % re.escape(lab), v, re.S)
+            if m:
+                sec[k] = v.replace(m.group(0), "")
+                moved.append((title, m.group(0)))
+                break
+        else:
+            raise KeyError(lab)
     S_ = lambda k: clean(sec[k])
     lim = S_(extra["limits"])
     lim, _, repro = lim.partition("\\textbf{Reproducibility.}")
@@ -53,7 +99,9 @@ def build(src, out, extra):
              "\\section{Code and Data}", extra["code"], "\n\n" + repro.strip(),
              "\\section{Author Contributions}", "M.K. is the sole author; see the LLM Usage Statement for how an AI assistant was used.",
              "\\section{References}", sec["References"],
-             "\\section{Appendix}"] + [f"\\subsection{{{k}}}" + clean(sec[k]) for k in extra["appendix"]] + [
+             "\\section{Appendix}"] + [f"\\subsection{{{chr(65 + i)}. {k[0].upper() + k[1:]}}}" + clean(sec[k])
+                                 for i, k in enumerate(extra["appendix"])] + [
+             f"\\subsection{{{chr(65 + len(extra['appendix']) + i)}. {t}}}" + clean(f) for i, (t, f) in enumerate(moved)] + [
              "\\section{LLM Usage Statement}", LLM, "\\end{document}"]
     open(out, "w").write("\n".join(parts))
 
@@ -78,6 +126,10 @@ P1 = dict(
           "\\item Other artifacts: explainer video (3:02) in the repository, \\texttt{video/out/agent-channel-audit-16x9.mp4}"
           "\\end{itemize}"),
     appendix=["Limitations and dual-use / ethical considerations", "Protocol deviations"],
+    secrefs={"sec:limits": "5", "app:dev": "B"},
+    to_appendix=[("tab:preds", "Predictions across every run")],
+    subs=[("width=\\linewidth]{fig2-real-wiki", "width=0.65\\linewidth]{fig2-real-wiki"),
+          ("width=\\linewidth]{fig1-participants", "width=0.9\\linewidth]{fig1-participants")],
 )
 P2 = dict(
     limits="Limitations", methods="Sandbox and design",
