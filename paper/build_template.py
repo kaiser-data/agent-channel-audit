@@ -189,7 +189,8 @@ def main():
             tblPr = t._tbl.tblPr
             w = tblPr.find(qn("w:tblW"))
             if w is not None:
-                w.set(qn("w:type"), "pct"); w.set(qn("w:w"), "5000")
+                w.set(qn("w:type"), "pct")
+                w.set(qn("w:w"), "5000")
             for cell in walk_cells(t):
                 for p in cell.paragraphs:
                     for r in p.runs:
