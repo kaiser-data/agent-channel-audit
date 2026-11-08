@@ -1,0 +1,11 @@
+PROTOCOL.md frozen 2026-11-06T19:39:52Z
+69157281f15ae47f400cb227abaceab3bec9ae7ade56bbc7ee352b95c888b120  PROTOCOL.md
+PROTOCOL.md v2 deviations declared 2026-11-06T19:44:23Z (times in text corrected to actual clock)
+bb6ebb8f331c59b5717c5b84a36297696ac21da389920678e2f887a4eadf8806  PROTOCOL.md
+Confirmation run on fresh seeds (offset 50000), declared before running: 2026-11-06T19:46:22Z
+D5 declared 2026-11-07T09:40:17Z
+0cf0484dc6b3c27660675220df226d7236bff45abcc3610a979400d4fea54a69  PROTOCOL.md
+D6 + P4 outcome recorded 2026-11-07T09:48:45Z
+ce31110114201d624572e719e26ee2504fdeaae54cf209b6c50ffcba18e69027  PROTOCOL.md
+D7 real-data arm declared 2026-11-08T01:17:04Z (time in text corrected to clock)
+048d8825eac8cd2a82f2ce7431ff7dca4bf7a9b8eb05a454528fa70b1c7e01d4  PROTOCOL.md

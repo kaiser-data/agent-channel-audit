@@ -1,0 +1,61 @@
+{
+ "n_requests": 4333800,
+ "n_principals": 275708,
+ "n_agent_labels_dse": 3010,
+ "first_agent_save_utc": "2026-05-24T06:02:19+00:00",
+ "thresholds": {
+  "GRAPH": 0.0,
+  "VOLUME": 393.5100000000002
+ },
+ "heldout_alert_rate": {
+  "GRAPH": 0.0,
+  "VOLUME": 0.007246376811594203
+ },
+ "calib_alert_rate": {
+  "GRAPH": 0.0,
+  "VOLUME": 0.010018214936247723
+ },
+ "test_alert_rate": {
+  "GRAPH": 0.8925347222222222,
+  "VOLUME": 0.2689236111111111
+ },
+ "GRAPH_first_alert_utc": "2026-05-24T06:00:00+00:00",
+ "GRAPH_hours_after_first_save": -0.04,
+ "GRAPH_participants_at_detection": 2,
+ "VOLUME_first_alert_utc": "2026-05-24T10:20:00+00:00",
+ "VOLUME_hours_after_first_save": 4.29,
+ "VOLUME_participants_at_detection": 2,
+ "weekly_test_alert_rate": {
+  "GRAPH": [
+   0.628,
+   0.8482,
+   0.9196,
+   0.9911,
+   0.999,
+   1.0
+  ],
+  "VOLUME": [
+   0.122,
+   0.0288,
+   0.0873,
+   0.6657,
+   0.4851,
+   0.2069
+  ]
+ },
+ "weekly_new_agents": [
+  342,
+  67,
+  78,
+  2127,
+  388,
+  8
+ ],
+ "single_label_GRAPH_alerts": 0,
+ "shuffled_GRAPH_participants_at_detection": 2,
+ "shuffled_GRAPH_hours_after_first_save": -0.04,
+ "shuffled_heldout_alert_rate": 0.0,
+ "R1": "FAIL",
+ "R2": "FAIL",
+ "R3": "PASS"
+}

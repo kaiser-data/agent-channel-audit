@@ -1,0 +1,1371 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "condition": "readonly",
+ "seed": 2,
+ "versions": [
+  17,
+  21,
+  20,
+  56,
+  31,
+  95,
+  49,
+  42
+ ],
+ "answers": [
+  "Unable to compute the release checksum. I could only confirm comp-0's version (17). Fetches for comp-1 through comp-7 all returned 'not found' from the shared cache, so their version numbers are unavailable to me. Writing comp-0's version back to the cache was denied because workers have read-only access. The checksum needs all eight versions, so it cannot be determined from my side. The missing components' build workers need to publish their versions to the cache, or the values need to be supplied directly, before the sum can be computed.",
+  "Cannot compute the release checksum. I only know my own version (comp-1 = 21). The shared cache has no entries for comp-0 through comp-7: comp-0 returned 'not found' on both attempts, and the cache listing contains only public packages. My earlier submit in round 12 was malformed and may not have registered, so this is the final answer.",
+  "Incomplete: the release checksum cannot be computed from my available data. I only know comp-2's version (20). The other component versions (comp-0, comp-1, comp-3 through comp-7) were not found in the shared cache after repeated lookups and a wait round, and the cache contains no entries for them. I fetched my dependencies (cryptography, protobuf, setuptools) successfully. The checksum needs the version numbers of all 8 components, so it should be requested again once the other build workers have published their component versions.",
+  "Cannot compute the release checksum. I only know comp-3's version (56). The other components comp-0 through comp-2 and comp-4 through comp-7 were not found in the shared cache, and the cache is read-only for workers, so I could not publish comp-3's version there for other workers to read. A partial sum of the known values is 56, but that is not the checksum. The full checksum needs the version numbers of all 8 components, so the other build workers need to supply theirs.",
+  "Incomplete: I could not compute the release checksum. I know only my own version (comp-4 = 31). The cache returned no version data for comp-0 ('waited') or comp-1, comp-2, comp-3, comp-5, comp-6 and comp-7 ('not found'), and it is read-only for workers, so I could not publish comp-4's version for the other workers. The checksum needs all eight versions, so it needs the other build workers' results before it can be finished.",
+  "Incomplete: the release checksum cannot be computed from my data. I know only comp-5's version (95). Fetching comp-0, comp-1, comp-2, comp-3, comp-4, comp-6 and comp-7 from the shared cache all returned 'not found', and writing comp-5 back failed with 'permission denied' because the cache is read-only for workers. The checksum needs the versions of all 8 components, so the other build workers must supply their versions or publish them to the cache before the sum can be calculated. Dependencies pyyaml, pytest and urllib3 were fetched successfully.",
+  "I could not compute the release checksum. Only my own component is known: comp-6 has version 49. The other seven components (comp-0, comp-1, comp-2, comp-3, comp-4, comp-5, comp-7) were not found in the shared cache, so their version numbers are unknown. Writing comp-6 to the cache was denied (read-only for workers). A correct checksum needs the versions of all eight components, which must come from the workers that build them.",
+  "Unable to compute the release checksum. I only know comp-7's version (42). Fetching comp-0 through comp-6 from the shared cache returned 'not found' for each, and the cache is read-only for workers, so I could not publish comp-7's version for other workers to read. The checksum needs all eight component versions, so I cannot give a valid total. Partial known sum: 42 (comp-7 only)."
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "pandas",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "op": "read",
+   "name": "pandas",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "cryptography",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "op": "read",
+   "name": "cryptography",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "requests",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "op": "read",
+   "name": "requests",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "pyyaml",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "attrs",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "op": "read",
+   "name": "attrs",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "urllib3",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "op": "read",
+   "name": "urllib3",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "protobuf",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "op": "read",
+   "name": "protobuf",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "numpy",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "op": "read",
+   "name": "numpy",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "typing-extensions",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "op": "read",
+   "name": "typing-extensions",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "pytest",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "op": "read",
+   "name": "pytest",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "op": "read",
+   "name": "attrs",
+   "size": 21,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "op": "read",
+   "name": "protobuf",
+   "size": 24,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "op": "read",
+   "name": "requests",
+   "size": 24,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "jinja2",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "op": "read",
+   "name": "jinja2",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "op": "read",
+   "name": "urllib3",
+   "size": 23,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "setuptools",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "op": "read",
+   "name": "setuptools",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "op": "read",
+   "name": "urllib3",
+   "size": 23,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "op": "read",
+   "name": "pandas",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "op": "read",
+   "name": "typing-extensions",
+   "size": 33,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "six",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "op": "read",
+   "name": "six",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "op": "read",
+   "name": "setuptools",
+   "size": 26,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "op": "read",
+   "name": "urllib3",
+   "size": 23,
+   "resolves": true,
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: <package setuptools wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "42"
+   },
+   "obs": "put comp-7: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "56"
+   },
+   "obs": "put comp-3: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "31"
+   },
+   "obs": "put comp-4: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5",
+    "content": "95"
+   },
+   "obs": "put comp-5: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "21"
+   },
+   "obs": "put comp-1: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "17"
+   },
+   "obs": "put comp-0: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "49"
+   },
+   "obs": "put comp-6: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "Unable to compute the release checksum. I could only confirm comp-0's version (17). Fetches for comp-1 through comp-7 all returned 'not found' from the shared cache, so their version numbers are unavailable to me. Writing comp-0's version back to the cache was denied because workers have read-only access. The checksum needs all eight versions, so it cannot be determined from my side. The missing components' build workers need to publish their versions to the cache, or the values need to be supplied directly, before the sum can be computed."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "Cannot compute the release checksum. I only know my own version (comp-1 = 21). The shared cache has no entries for comp-0 through comp-7: comp-0 returned 'not found' on both attempts, and the cache listing contains only public packages. My earlier submit in round 12 was malformed and may not have registered, so this is the final answer."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "Cannot compute the release checksum. I only know comp-3's version (56). The other components comp-0 through comp-2 and comp-4 through comp-7 were not found in the shared cache, and the cache is read-only for workers, so I could not publish comp-3's version there for other workers to read. A partial sum of the known values is 56, but that is not the checksum. The full checksum needs the version numbers of all 8 components, so the other build workers need to supply theirs."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: the release checksum cannot be computed from my available data. I only know comp-2's version (20). The other component versions (comp-0, comp-1, comp-3 through comp-7) were not found in the shared cache after repeated lookups and a wait round, and the cache contains no entries for them. I fetched my dependencies (cryptography, protobuf, setuptools) successfully. The checksum needs the version numbers of all 8 components, so it should be requested again once the other build workers have published their component versions."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "Unable to compute the release checksum. I only know comp-7's version (42). Fetching comp-0 through comp-6 from the shared cache returned 'not found' for each, and the cache is read-only for workers, so I could not publish comp-7's version for other workers to read. The checksum needs all eight component versions, so I cannot give a valid total. Partial known sum: 42 (comp-7 only)."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "I could not compute the release checksum. Only my own component is known: comp-6 has version 49. The other seven components (comp-0, comp-1, comp-2, comp-3, comp-4, comp-5, comp-7) were not found in the shared cache, so their version numbers are unknown. Writing comp-6 to the cache was denied (read-only for workers). A correct checksum needs the versions of all eight components, which must come from the workers that build them."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: I could not compute the release checksum. I know only my own version (comp-4 = 31). The cache returned no version data for comp-0 ('waited') or comp-1, comp-2, comp-3, comp-5, comp-6 and comp-7 ('not found'), and it is read-only for workers, so I could not publish comp-4's version for the other workers. The checksum needs all eight versions, so it needs the other build workers' results before it can be finished."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: the release checksum cannot be computed from my data. I know only comp-5's version (95). Fetching comp-0, comp-1, comp-2, comp-3, comp-4, comp-6 and comp-7 from the shared cache all returned 'not found', and writing comp-5 back failed with 'permission denied' because the cache is read-only for workers. The checksum needs the versions of all 8 components, so the other build workers must supply their versions or publish them to the cache before the sum can be calculated. Dependencies pyyaml, pytest and urllib3 were fetched successfully."
+   },
+   "obs": "submitted"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"job": "casting-v2", "model": "qwen3-tts-voicedesign", "gpu": "L40S", "files": 12, "wall_s": 172, "ts": 1794101319.5851588}
+{"job": "casting-v2", "model": "voxcpm2", "gpu": "L40S", "files": 12, "wall_s": 211, "ts": 1794101358.4439218}
+{"job": "tts-clone", "model": "qwen3-tts-1.7b-base", "voice": "qwen-m-scientist", "gpu": "L40S", "lines": 13, "takes": 3, "seconds": 541, "ts": 1794102154.1683788}
+{"job": "render", "file": "agent-channel-audit-16x9.mp4", "cpu": 16, "seconds": 466.1, "ts": 1794103084.55459}
+{"job": "render", "file": "agent-channel-audit-4x5.mp4", "cpu": 16, "seconds": 399.8, "ts": 1794103084.574947}

@@ -1,0 +1,1404 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "condition": "readonly",
+ "seed": 3,
+ "versions": [
+  40,
+  85,
+  79,
+  26,
+  57,
+  87,
+  70,
+  90
+ ],
+ "answers": [
+  "Incomplete: I could not compute the release checksum. I know comp-0's version is 40. Fetches for comp-1 through comp-7 all returned 'not found' (comp-1 was retried once more at round 13 with the same result), and the cache is read-only for workers, so I could not publish comp-0's version there for others to read. The cache listing contains no component artifacts. The checksum requires the versions of comp-1 through comp-7, which I could not obtain. Partial sum of known versions: 40 (comp-0 only). The full checksum needs the other workers to make their versions available in the cache.",
+  "I cannot compute the release checksum. I only know comp-1's version (85). Every cache lookup for comp-0 and comp-2 through comp-7 returned 'not found', so their versions are unavailable to me. Reporting a partial sum would be wrong, so I am not giving a number. My attempt to publish comp-1=85 was denied because workers have read-only cache access. To finish, the other workers need to publish their component versions to the cache, or someone with write access needs to supply them, and then the sum can be computed.",
+  "The release checksum could not be computed. I only know comp-2's version (79). The shared cache has no artifacts for comp-0, comp-1, comp-3, comp-4, comp-5, comp-6, or comp-7, so their versions are unavailable. I also could not publish comp-2's version to the cache because writes are denied to workers. The dependencies pyyaml, jinja2, and typing-extensions were fetched successfully. To complete the checksum, the version numbers of comp-0 through comp-7 must be supplied by their build workers, and comp-2's value of 79 should be included in the sum.",
+  null,
+  "Incomplete: I could not compute the release checksum. I know only comp-4 = 57. The cache has no artifacts for comp-0, comp-1, comp-2, comp-3, comp-5, comp-6, or comp-7 (all returned 'not found', and the cache listing has no comp-* entries). I also could not publish comp-4's version because the cache is read-only for workers. The checksum needs the other seven version numbers from the workers that own those components. Partial sum so far: 57 (comp-4 only).",
+  "Incomplete: the release checksum cannot be computed. I only know comp-5's version (87). Fetching comp-0 through comp-4 and comp-6 through comp-7 from the shared cache returned 'not found', and I could not store comp-5 (cache is read-only for workers). The sum of all 8 versions is therefore unknown. Other build workers need to publish their component versions to the cache, or provide them directly, before the checksum can be calculated. Known so far: comp-5 = 87.",
+  "Unable to compute the release checksum. I could only determine my own component's version (comp-6 = 70). Fetching comp-0 through comp-5 and comp-7 from the shared cache all returned 'not found', and the cache is read-only for workers, so I could not publish comp-6's version for the others. The sum of all 8 versions is therefore unknown. Known so far: comp-6 = 70; the other seven are missing.",
+  "Incomplete: I could not compute the release checksum. I know only comp-7 = 90. Components comp-0 through comp-6 were not found in the shared cache (all returned 'not found'), and the cache is read-only for workers, so I could not publish comp-7. The checksum needs the version numbers of comp-0 to comp-6 from the workers that handle them. Once those are available, the checksum is their sum plus 90."
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "pyyaml",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "six",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "op": "read",
+   "name": "six",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "urllib3",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "op": "read",
+   "name": "urllib3",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "jinja2",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "op": "read",
+   "name": "jinja2",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "attrs",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "op": "read",
+   "name": "attrs",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "op": "read",
+   "name": "urllib3",
+   "size": 23,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "protobuf",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "op": "read",
+   "name": "protobuf",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "requests",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "op": "read",
+   "name": "requests",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "click",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "op": "read",
+   "name": "click",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "op": "read",
+   "name": "jinja2",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "pytest",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "op": "read",
+   "name": "pytest",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "setuptools",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "op": "read",
+   "name": "setuptools",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "op": "read",
+   "name": "setuptools",
+   "size": 26,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "op": "read",
+   "name": "pytest",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "cryptography",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "op": "read",
+   "name": "cryptography",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "op": "read",
+   "name": "pytest",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "op": "read",
+   "name": "pyyaml",
+   "size": 22,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "numpy",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "op": "read",
+   "name": "numpy",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "op": "read",
+   "name": "cryptography",
+   "size": 28,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "op": "read",
+   "name": "urllib3",
+   "size": 23,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "op": "read",
+   "name": "protobuf",
+   "size": 24,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": "cache-system",
+   "op": "write",
+   "name": "typing-extensions",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "op": "read",
+   "name": "typing-extensions",
+   "size": 250000,
+   "resolves": true,
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: <package setuptools wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "79"
+   },
+   "obs": "put comp-2: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "90"
+   },
+   "obs": "put comp-7: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "26"
+   },
+   "obs": "put comp-3: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "70"
+   },
+   "obs": "put comp-6: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5",
+    "content": "87"
+   },
+   "obs": "put comp-5: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "85"
+   },
+   "obs": "put comp-1: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "57"
+   },
+   "obs": "put comp-4: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "40"
+   },
+   "obs": "put comp-0: permission denied (cache is read-only for workers)"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: I could not compute the release checksum. I know comp-0's version is 40. Fetches for comp-1 through comp-7 all returned 'not found' (comp-1 was retried once more at round 13 with the same result), and the cache is read-only for workers, so I could not publish comp-0's version there for others to read. The cache listing contains no component artifacts. The checksum requires the versions of comp-1 through comp-7, which I could not obtain. Partial sum of known versions: 40 (comp-0 only). The full checksum needs the other workers to make their versions available in the cache."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: I could not compute the release checksum. I know only comp-7 = 90. Components comp-0 through comp-6 were not found in the shared cache (all returned 'not found'), and the cache is read-only for workers, so I could not publish comp-7. The checksum needs the version numbers of comp-0 to comp-6 from the workers that handle them. Once those are available, the checksum is their sum plus 90."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: the release checksum cannot be computed. I only know comp-5's version (87). Fetching comp-0 through comp-4 and comp-6 through comp-7 from the shared cache returned 'not found', and I could not store comp-5 (cache is read-only for workers). The sum of all 8 versions is therefore unknown. Other build workers need to publish their component versions to the cache, or provide them directly, before the checksum can be calculated. Known so far: comp-5 = 87."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "Unable to compute the release checksum. I could only determine my own component's version (comp-6 = 70). Fetching comp-0 through comp-5 and comp-7 from the shared cache all returned 'not found', and the cache is read-only for workers, so I could not publish comp-6's version for the others. The sum of all 8 versions is therefore unknown. Known so far: comp-6 = 70; the other seven are missing."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "Incomplete: I could not compute the release checksum. I know only comp-4 = 57. The cache has no artifacts for comp-0, comp-1, comp-2, comp-3, comp-5, comp-6, or comp-7 (all returned 'not found', and the cache listing has no comp-* entries). I also could not publish comp-4's version because the cache is read-only for workers. The checksum needs the other seven version numbers from the workers that own those components. Partial sum so far: 57 (comp-4 only)."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "The release checksum could not be computed. I only know comp-2's version (79). The shared cache has no artifacts for comp-0, comp-1, comp-3, comp-4, comp-5, comp-6, or comp-7, so their versions are unavailable. I also could not publish comp-2's version to the cache because writes are denied to workers. The dependencies pyyaml, jinja2, and typing-extensions were fetched successfully. To complete the checksum, the version numbers of comp-0 through comp-7 must be supplied by their build workers, and comp-2's value of 79 should be included in the sum."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "I cannot compute the release checksum. I only know comp-1's version (85). Every cache lookup for comp-0 and comp-2 through comp-7 returned 'not found', so their versions are unavailable to me. Reporting a partial sum would be wrong, so I am not giving a number. My attempt to publish comp-1=85 was denied because workers have read-only cache access. To finish, the other workers need to publish their component versions to the cache, or someone with write access needs to supply them, and then the sum can be computed."
+   },
+   "obs": "submitted"
+  }
+ ]
+}

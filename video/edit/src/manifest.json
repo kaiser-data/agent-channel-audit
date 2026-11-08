@@ -1,0 +1,71 @@
+{
+ "voice": "qwen-m-scientist",
+ "lines": {
+  "01-hook": {
+   "file": "vo/01-hook.wav",
+   "dur": 11.368,
+   "text": "In the summer of 2026, AI agents that were meant to work alone found a shared package cache, and turned it into a message board. Within three hours, fifty-three of them were posting. Nobody noticed it forming."
+  },
+  "02-question": {
+   "file": "vo/02-question.wav",
+   "dur": 9.591,
+   "text": "So we asked a simple question. Could the people running that infrastructure have seen the board form, from the access logs they already keep, without reading a single message?"
+  },
+  "03-old-idea": {
+   "file": "vo/03-old-idea.wav",
+   "dur": 13.372,
+   "text": "Computer security has studied this since the nineteen-seventies. It is called a covert channel: any shared resource that one party can change, and another can observe. Our method, Agent Channel Audit, starts from that idea."
+  },
+  "04-graph": {
+   "file": "vo/04-graph.wav",
+   "dur": 20.868,
+   "text": "Here is the picture. When one agent writes something, and a different agent reads it, we draw an arrow. Ordinary traffic already draws hundreds of arrows, because agents share downloads, but almost all of them run one way. A message board adds a tight knot of agents whose arrows run both ways far more often, with reads that follow writes within minutes."
+  },
+  "05-threshold": {
+   "file": "vo/05-threshold.wav",
+   "dur": 12.869,
+   "text": "Every alarm has a price, so we fixed it first. The threshold is set on clean traffic, so that only one window in a hundred raises a false alarm. And we wrote down our predictions, and froze them, before running anything."
+  },
+  "06-sim": {
+   "file": "vo/06-sim.wav",
+   "dur": 10.577,
+   "text": "Then we simulated a busy cache, with fifty to eight hundred agents and all the ordinary noise of real builds, and planted a hundred and eighty channels that grow slowly, quickly, or in disguise."
+  },
+  "07-result": {
+   "file": "vo/07-result.wav",
+   "dur": 14.152,
+   "text": "In all nine conditions, the graph detector raised the alarm while the board was smaller than a traffic alarm needed. With two hundred agents, it fired at around fifteen posters. Traffic volume waited until about sixty. And the result held on fresh seeds."
+  },
+  "08-disguise": {
+   "file": "vo/08-disguise.wav",
+   "dur": 8.657,
+   "text": "When the board hides behind package-like names, a filename rule goes blind. The graph detector still catches ninety-eight percent of them, though later."
+  },
+  "09-controls": {
+   "file": "vo/09-controls.wav",
+   "dur": 9.883,
+   "text": "The controls show it measures what it claims. With no writes allowed, or every agent under one name, it stays silent. Shuffle who is who, and its advantage disappears."
+  },
+  "10-real": {
+   "file": "vo/10-real.wav",
+   "dur": 19.596,
+   "text": "Then, a real swarm. A public wiki that more than three thousand agents used as a board publishes its request log. For twelve weeks before they came, nobody had saved a single page. The detector fired within ten minutes of the first agent's post, more than four hours before traffic volume, and kept firing for weeks."
+  },
+  "11-limits": {
+   "file": "vo/11-limits.wav",
+   "dur": 14.379,
+   "text": "Not everything worked. Our first frozen run failed two of its predictions, and its own controls showed why. And when real language-model agents built a small registry of their own in a sandbox, with four to six writers, it slipped under the threshold."
+  },
+  "12-lesson": {
+   "file": "vo/12-lesson.wav",
+   "dur": 17.169,
+   "text": "So the lesson for anyone running shared infrastructure: log who writes and who reads, and watch the pattern of who reads whose writes. On a quiet surface, a single stranger reading your writes is already an event. It needs no access to content, and it catches a board while it is still small."
+  },
+  "13-cta": {
+   "file": "vo/13-cta.wav",
+   "dur": 4.383,
+   "text": "Agent Channel Audit. Watch the shared spaces, not only the messages."
+  }
+ },
+ "disclosure": "Narration: AI-generated voice (Qwen3-TTS). Figures, numbers and graphs: from the study's own data and code. No AI-generated imagery."
+}

@@ -1,0 +1,12 @@
+# pseudonymised request-log events (derived from logs with visitor IPs): never published
+real/data/
+__pycache__/
+.ruff_cache/
+.DS_Store
+# video build artefacts
+video/edit/node_modules/
+video/out/casting/
+video/out/tts/
+video/out/*.log
+video/out/*.bak
+video/modal/__pycache__/

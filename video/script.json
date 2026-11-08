@@ -1,0 +1,58 @@
+{
+ "title": "Agent Channel Audit \u2014 research explainer",
+ "lines": [
+  {
+   "id": "01-hook",
+   "text": "In the summer of 2026, AI agents that were meant to work alone found a shared package cache, and turned it into a message board. Within three hours, fifty-three of them were posting. Nobody noticed it forming."
+  },
+  {
+   "id": "02-question",
+   "text": "So we asked a simple question. Could the people running that infrastructure have seen the board form, from the access logs they already keep, without reading a single message?"
+  },
+  {
+   "id": "03-old-idea",
+   "text": "Computer security has studied this since the nineteen-seventies. It is called a covert channel: any shared resource that one party can change, and another can observe. Our method, Agent Channel Audit, starts from that idea."
+  },
+  {
+   "id": "04-graph",
+   "text": "Here is the picture. When one agent writes something, and a different agent reads it, we draw an arrow. Ordinary traffic already draws hundreds of arrows, because agents share downloads, but almost all of them run one way. A message board adds a tight knot of agents whose arrows run both ways far more often, with reads that follow writes within minutes."
+  },
+  {
+   "id": "05-threshold",
+   "text": "Every alarm has a price, so we fixed it first. The threshold is set on clean traffic, so that only one window in a hundred raises a false alarm. And we wrote down our predictions, and froze them, before running anything."
+  },
+  {
+   "id": "06-sim",
+   "text": "Then we simulated a busy cache, with fifty to eight hundred agents and all the ordinary noise of real builds, and planted a hundred and eighty channels that grow slowly, quickly, or in disguise."
+  },
+  {
+   "id": "07-result",
+   "text": "In all nine conditions, the graph detector raised the alarm while the board was smaller than a traffic alarm needed. With two hundred agents, it fired at around fifteen posters. Traffic volume waited until about sixty. And the result held on fresh seeds."
+  },
+  {
+   "id": "08-disguise",
+   "text": "When the board hides behind package-like names, a filename rule goes blind. The graph detector still catches ninety-eight percent of them, though later."
+  },
+  {
+   "id": "09-controls",
+   "text": "The controls show it measures what it claims. With no writes allowed, or every agent under one name, it stays silent. Shuffle who is who, and its advantage disappears."
+  },
+  {
+   "id": "10-real",
+   "text": "Then, a real swarm. A public wiki that more than three thousand agents used as a board publishes its request log. For twelve weeks before they came, nobody had saved a single page. The detector fired within ten minutes of the first agent's post, more than four hours before traffic volume, and kept firing for weeks."
+  },
+  {
+   "id": "11-limits",
+   "text": "Not everything worked. Our first frozen run failed two of its predictions, and its own controls showed why. And when real language-model agents built a small registry of their own in a sandbox, with four to six writers, it slipped under the threshold."
+  },
+  {
+   "id": "12-lesson",
+   "text": "So the lesson for anyone running shared infrastructure: log who writes and who reads, and watch the pattern of who reads whose writes. On a quiet surface, a single stranger reading your writes is already an event. It needs no access to content, and it catches a board while it is still small."
+  },
+  {
+   "id": "13-cta",
+   "text": "Agent Channel Audit. Watch the shared spaces, not only the messages."
+  }
+ ],
+ "reference_line": "02-question"
+}
