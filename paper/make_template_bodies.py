@@ -145,7 +145,9 @@ P2 = dict(
                 "every surface one agent can write and another can read, and close or monitor them together."),
     code=("\\begin{itemize}\\item Code repository: \\url{https://github.com/kaiser-data/channel-displacement}"
           "\\item Data: all 160 scored runs, the pilot and the 2 OpenRouter runs, with full transcripts, are in the repository."
-          "\\item Companion project: \\url{https://github.com/kaiser-data/agent-channel-audit}\\end{itemize}"),
+          "\\item Companion project: \\url{https://github.com/kaiser-data/agent-channel-audit}"
+          "\\item Other artifacts: explainer video (2:31) in the repository, \\texttt{video/out/channel-displacement-16x9.mp4}"
+          "\\end{itemize}"),
     appendix=["Limitations and dual-use / ethical considerations"],
 )
 
