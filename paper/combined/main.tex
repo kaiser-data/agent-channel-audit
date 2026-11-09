@@ -40,8 +40,8 @@ The two questions below are old elsewhere: security calls the first the confinem
 
 \textbf{Questions, and short answers.}
 \begin{itemize}
-\item \textbf{Q1. Can an operator see a hidden board from access logs alone, without reading content, while it is still small?} In simulation, yes: at a measured 1\% false-alarm rate the \wrr{} graph fired earlier than a volume alarm in 9/9 conditions. On real data we could test only the easy case, a surface nobody had written to before.
-\item \textbf{Q2. If the operator closes the board, does coordination stop or move?} It moved. To our knowledge this is the first test of the displacement question on LLM agents: all 12 established channels continued on another writable surface (first post within five rounds, median one), and coordination stopped only when none was left. Two of four models, one toy task.
+\item \textbf{Q1. Can an operator see a hidden board from access logs alone, without reading content, while it is still small?} In simulation, yes: watching who reads whose writes caught boards earlier than watching traffic. On real data we could only test an easy case.
+\item \textbf{Q2. If the operator closes the board, does coordination stop or move?} It moved: the agents carried on over the shared surface that was left, and stopped only when none was left. Shown for two models in a toy task.
 \end{itemize}
 
 \section*{2. Related Work}
