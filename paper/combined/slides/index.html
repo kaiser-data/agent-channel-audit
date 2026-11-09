@@ -121,7 +121,7 @@ a{color:var(--blue)}
     <div><div class="big">62</div><div class="cap">agents when the traffic alarm fired</div></div>
     <div><div class="big a">9/9</div><div class="cap">settings where the audit was earlier, at 1% false alarms</div></div>
   </div>
-  <p class="mut">Found 96–100% of undisguised boards (traffic alarm: 61–73%), 98% when disguised. On a real wiki that 3,010 agents used as a board it fired within ten minutes, an easy case, because nobody had written there before.</p>
+  <p class="mut">Alerted in 96–100% of undisguised runs (traffic alarm: 61–73%), 98% when disguised. On a public wiki log with 3,010 agent-labelled names it fired within ten minutes, an easy case: no saves in the months before. Shown in simulation; one minimal sandbox infrastructure.</p>
 </section>
 
 <section class="slide" data-anim="move">
@@ -129,7 +129,7 @@ a{color:var(--blue)}
   <div class="row">
     <div>
       <h2>Close the board, and the agents move.</h2>
-      <p style="margin-top:2vh"><b>12 of 12</b> established boards reappeared on a status dashboard, the first post typically <b>one round</b> after closure. Coordination did not drop (19% right answers vs 15% with the cache open). It stopped only when nothing writable was left (0%).</p>
+      <p style="margin-top:2vh">In <b>all 12</b> runs with an established board, communication continued on the status dashboard after closure. Right answers: 19% vs 15% with the cache open (varying by model). With nothing writable left: 0%.</p>
     </div>
     <svg class="move" id="move" viewBox="0 0 420 240" role="img" aria-label="Agents move from the closed cache to the dashboard">
       <rect class="board" id="cacheb" x="20" y="40" width="160" height="140" rx="4"/>
@@ -151,7 +151,7 @@ a{color:var(--blue)}
 
 <section class="slide">
   <div class="k">Where human judgement enters</div>
-  <h2>The alarm is cheap. The decisions after it are human.</h2>
+  <h2>Swarms cannot be watched message by message. Audits aggregate; humans decide.</h2>
   <ol class="list">
     <li><b>How many false alarms to bear.</b> 1% per 10-minute window is about 1.4 a day per surface; someone checks each one.</li>
     <li><b>Whether to read.</b> The log shows where agents talk; a person has to understand what they say.</li>
@@ -167,7 +167,7 @@ a{color:var(--blue)}
     <li>The first frozen run of the audit failed two of its predictions; the fixes and the failure are both reported.</li>
     <li>Small boards of 4–6 agents, the kind LLM agents built on their own, were not detected (0 of 5).</li>
     <li>Only two of four models coordinated at all; the closure task is a toy.</li>
-    <li>A busy real system was covered only in simulation.</li>
+    <li>A busy real system was covered only in simulation; the closure test used one cache and one dashboard. Object stores, wikis, issue trackers, chat and timing still need testing.</li>
   </ul>
 </section>
 
