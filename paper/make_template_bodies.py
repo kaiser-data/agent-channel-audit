@@ -63,9 +63,7 @@ LLM = ("This project was carried out with Claude Code (Anthropic, model Claude O
        "The author chose the research question and the overall direction, and approved each decision point "
        "(design, deviations, what to publish). Claude Code wrote most of the code, ran the experiments, and drafted "
        "the text of this report. Every number in the report is printed by scripts in the public repository and was "
-       "checked against those outputs; every reference was checked against Crossref or the original source. "
-       "[AUTHOR: edit this statement so it matches your own role, and revise the text in your own words; the "
-       "organisers ask that the final version be primarily written by the team.]")
+       "checked against those outputs; every reference was checked against Crossref or the original source.")
 
 
 def build(src, out, extra):
