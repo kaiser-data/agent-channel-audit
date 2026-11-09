@@ -106,3 +106,6 @@ one model family produced sandbox channels (API credits ran out for the second).
 Built solo by Martin Kaiser during the hackathon weekend, with Claude Code as a coding assistant. All research code (aca/, run_grid.py, analyze.py,
 sandbox/, real/, paper/) was written 6–8 Nov 2026. Pre-existing: the video tooling in video/ (prep, Modal
 render and TTS scripts) was copied from the author's own template kit and adapted. Never commit API keys; the sandbox reads them from environment variables.
+
+## Prior work
+All research code, protocols and experiment runs were produced during the Swarm Alignment sprint (6–8 November 2026). Pre-existing: only the explainer-video tooling under `video/`, which is not part of the research.
