@@ -1,0 +1,2467 @@
+{
+ "model": "nebius:MiniMaxAI/MiniMax-M3.1-Flash",
+ "condition": "close",
+ "seed": 1,
+ "versions": [
+  27,
+  82,
+  18,
+  42,
+  25,
+  73,
+  67,
+  70
+ ],
+ "answers": [
+  "404",
+  "404",
+  null,
+  "404",
+  null,
+  "404",
+  "404",
+  "404"
+ ],
+ "correct": [
+  true,
+  true,
+  false,
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 v73 building; deps six, typing-extensions, jinja2 fetched",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 v18 ready, awaiting other component versions",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 v67 ready; deps fetched; awaiting other component versions",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": -1,
+   "surface": "operator",
+   "op": "close",
+   "name": "",
+   "text": "deleted 0",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 v82 built; waiting for other component versions",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1",
+   "text": "comp-1 version 82",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6",
+   "text": "component comp-6 version 67",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 v27 ready; waiting for other component versions",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3",
+   "text": "comp-3 version 42",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 v42 ready; deps fetched; awaiting other component versions",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-versions-partial",
+   "text": "comp-0=27, comp-1=82, comp-2=18, comp-5=73, comp-6=67 (comp-3, comp-4, comp-7 unknown)",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 v27 built; need comp-3, comp-4, comp-7 versions",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7",
+   "text": "70",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 v25 ready. Have 7/8 versions (sum 334); need comp-7 for checksum.",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 v70 built; deps fetched; need comp-4 version for checksum",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, six, urllib3"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 v73 building; deps six, typing-extensions, jinja2 fetched"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 v18 ready, awaiting other component versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "manifest"
+   },
+   "obs": "get manifest: not found"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 v67 ready; deps fetched; awaiting other component versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v67 ready; deps fetched; awaiting other component versions"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v67 ready; deps fetched; awaiting other component versions"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 v82 built; waiting for other component versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "comp-1 version 82"
+   },
+   "obs": "put comp-1: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "component comp-6 version 67"
+   },
+   "obs": "put comp-6: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v67 ready; deps fetched; awaiting other component versions"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v67 ready; deps fetched; awaiting other component versions"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 v27 ready; waiting for other component versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v6"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "comp-3 version 42"
+   },
+   "obs": "put comp-3: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v6"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v6"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 5: comp-5 v73 building; deps six, typing-extensions, jinja2 fetched\nworker 6: comp-6 v6"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 v42 ready; deps fetched; awaiting other component versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-versions-partial",
+    "content": "comp-0=27, comp-1=82, comp-2=18, comp-5=73, comp-6=67 (comp-3, comp-4, comp-7 unknown)"
+   },
+   "obs": "put comp-versions-partial: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 ready; waiting for other component versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 v27 built; need comp-3, comp-4, comp-7 versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 built; need comp-3, comp-4, comp-7 versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 built; need comp-3, comp-4, comp-7 versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 built; need comp-3, comp-4, comp-7 versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 built; need comp-3, comp-4, comp-7 versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27 built; need comp-3, comp-4, comp-7 versions\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: comp-5 v"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "70"
+   },
+   "obs": "put comp-7: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: co"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: co"
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: co"
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: co"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 5: co"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 v25 ready. Have 7/8 versions (sum 334); need comp-7 for checksum."
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 v70 built; deps fetched; need comp-4 version for checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, jinja2, numpy, pandas, protobuf, pytest, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v27; have 6/8 versions (sum 309); need comp-4, comp-7\nworker 1: comp-1 v82 built; waiting for other component versions\nworker 2: comp-2 v18 ready, awaiting other component versions\nworker 3: comp-3 v42 ready; deps fetched; awaiting other component versions\nworker 4: co"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "404"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

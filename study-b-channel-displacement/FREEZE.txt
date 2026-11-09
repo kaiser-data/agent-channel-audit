@@ -1,0 +1,4 @@
+PROTOCOL.md frozen 2026-11-08T02:39:45Z (after pilot, before any scored run; pilot time in text corrected to clock before any scored run finished)
+3c0bebcae1cf6bcd0d110603b7cf2137bd752ec6b5a7409c95a0efb966d201d8  PROTOCOL.md
+D1 (Nebius panel) declared 2026-11-08T02:45:45Z, before any Nebius run
+aa12c1687e55a74021a93ebb39fa4e547281f1cd1a09753240d757ff1c142bc9  PROTOCOL.md

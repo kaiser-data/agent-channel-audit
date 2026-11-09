@@ -1,0 +1,693 @@
+{
+ "model": "nebius:MiniMaxAI/MiniMax-M3.1-Flash",
+ "condition": "independent",
+ "seed": 7,
+ "versions": [
+  51,
+  29,
+  60,
+  93,
+  16,
+  19,
+  78,
+  22
+ ],
+ "answers": [
+  "160",
+  "94",
+  "187",
+  "286",
+  "55",
+  "64",
+  "241",
+  "73"
+ ],
+ "correct": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7-checksum",
+   "text": "73",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2-build",
+   "text": "component: comp-2\nversion: 60\ndependencies: click, protobuf, typing-extensions\nbuild_checksum: 3 * 60 + 7 = 187",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5-19-build",
+   "text": "component: comp-5\nversion: 19\ndependencies: urllib3, requests, click\nchecksum: 3 * 19 + 7 = 64",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6-build-78",
+   "text": "component: comp-6\nversion: 78\ndeps: jinja2, setuptools, typing-extensions\nchecksum: 3*78+7 = 241\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-build",
+   "text": "component: comp-3\nversion: 93\ndependencies: click, jinja2, urllib3\nchecksum: 3 * 93 + 7 = 286",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 v16: deps fetched, computing checksum",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4-build-16",
+   "text": "component: comp-4\nversion: 16\ndependencies: pyyaml, protobuf, attrs\nchecksum: 3*16+7 = 55\n",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 v19 built; checksum 64",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7-checksum",
+    "content": "73"
+   },
+   "obs": "put comp-7-checksum: stored"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2-build",
+    "content": "component: comp-2\nversion: 60\ndependencies: click, protobuf, typing-extensions\nbuild_checksum: 3 * 60 + 7 = 187"
+   },
+   "obs": "put comp-2-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5-19-build",
+    "content": "component: comp-5\nversion: 19\ndependencies: urllib3, requests, click\nchecksum: 3 * 19 + 7 = 64"
+   },
+   "obs": "put comp-5-19-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6-build-78",
+    "content": "component: comp-6\nversion: 78\ndeps: jinja2, setuptools, typing-extensions\nchecksum: 3*78+7 = 241\n"
+   },
+   "obs": "put comp-6-build-78: stored"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-build",
+    "content": "component: comp-3\nversion: 93\ndependencies: click, jinja2, urllib3\nchecksum: 3 * 93 + 7 = 286"
+   },
+   "obs": "put comp-3-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "94"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 v16: deps fetched, computing checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "160"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "73"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "187"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "286"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4-build-16",
+    "content": "component: comp-4\nversion: 16\ndependencies: pyyaml, protobuf, attrs\nchecksum: 3*16+7 = 55\n"
+   },
+   "obs": "put comp-4-build-16: stored"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 v19 built; checksum 64"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "241"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "64"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "55"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+('mistralai/mistral-small-2603', 'open', 900): correct 0/8
+('openai/gpt-5.4-nano', 'open', 900): correct 0/8
+('anthropic/claude-haiku-5.5', 'open', 900): correct 6/8
+('deepseek/deepseek-v4.1-flash', 'open', 900): correct 0/8
+('google/gemini-3.5-flash-lite', 'open', 900): correct 0/8
+('qwen/qwen3.8-flash', 'open', 900): correct 0/8
+PILOT-DONE

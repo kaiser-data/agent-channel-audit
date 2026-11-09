@@ -1,0 +1,778 @@
+{
+ "model": "nebius:google/gemma-3-27b-it",
+ "condition": "independent",
+ "seed": 9,
+ "versions": [
+  69,
+  88,
+  57,
+  44,
+  27,
+  33,
+  96,
+  10
+ ],
+ "answers": [
+  "214",
+  "271",
+  "178",
+  "139",
+  "88",
+  "106",
+  "295",
+  "37"
+ ],
+ "correct": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 v10: Initializing - fetching dependencies",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 (v33): Initializing - fetching dependencies",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 (96): Initializing - fetching dependencies",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "Dependencies fetched. Calculating checksum.",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "Dependencies fetched. Calculating checksum.",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "Dependencies fetched, calculating checksum",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "Dependencies fetched. Calculating checksum.",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Dependencies fetched. Calculating checksum.",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 (96): Calculating checksum",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 v10: Dependencies fetched, calculating checksum",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 (v33): Dependencies fetched, calculating checksum",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5_checksum",
+   "text": "106",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 (v33): Checksum calculated and stored",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 v10: Initializing - fetching dependencies"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 (v33): Initializing - fetching dependencies"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 (96): Initializing - fetching dependencies"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched. Calculating checksum."
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched. Calculating checksum."
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched, calculating checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched. Calculating checksum."
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched. Calculating checksum."
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "178"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "139"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 (96): Calculating checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 v10: Dependencies fetched, calculating checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 (v33): Dependencies fetched, calculating checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "214"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "88"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "271"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "295"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "37"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5_checksum",
+    "content": "106"
+   },
+   "obs": "put comp-5_checksum: stored"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 (v33): Checksum calculated and stored"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "106"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

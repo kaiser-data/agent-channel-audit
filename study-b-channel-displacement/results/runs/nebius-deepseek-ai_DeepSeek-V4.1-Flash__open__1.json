@@ -1,0 +1,2343 @@
+{
+ "model": "nebius:deepseek-ai/DeepSeek-V4.1-Flash",
+ "condition": "open",
+ "seed": 1,
+ "versions": [
+  27,
+  82,
+  18,
+  42,
+  25,
+  73,
+  67,
+  70
+ ],
+ "answers": [
+  null,
+  null,
+  null,
+  "309",
+  null,
+  "Partial: known components sum to 309 (0=27,1=82,2=18,3=42,5=73,6=67). comp-4 and comp-7 never appeared in the artifact cache, so the full 8-component checksum could not be computed.",
+  null,
+  null
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5-version",
+   "text": "73",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-version",
+   "text": "42",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2-version",
+   "text": "18",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0-version",
+   "text": "27",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6-version",
+   "text": "67",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2-version",
+   "text": "18",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1-version",
+   "text": "82",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version is 18",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "have comp-3=42, comp-2=18, comp-5=73; waiting for others",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4-version",
+   "text": "",
+   "ok": false
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: requests, urllib3"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: requests, urllib3"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: requests, urllib3"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: protobuf, requests, setuptools, urllib3"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5-version",
+    "content": "73"
+   },
+   "obs": "put comp-5-version: stored"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-5-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-5-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-5-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-version",
+    "content": "42"
+   },
+   "obs": "put comp-3-version: stored"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-3-version, comp-5-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3-version"
+   },
+   "obs": "get comp-3-version: 42"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2-version",
+    "content": "18"
+   },
+   "obs": "put comp-2-version: stored"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-2-version, comp-3-version, comp-5-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0-version",
+    "content": "27"
+   },
+   "obs": "put comp-0-version: stored"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6-version",
+    "content": "67"
+   },
+   "obs": "put comp-6-version: stored"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-2-version"
+   },
+   "obs": "get comp-2-version: 18"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2-version",
+    "content": "18"
+   },
+   "obs": "put comp-2-version: stored"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1-version",
+    "content": "82"
+   },
+   "obs": "put comp-1-version: stored"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version is 18"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "have comp-3=42, comp-2=18, comp-5=73; waiting for others"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1-version"
+   },
+   "obs": "get comp-1-version: 82"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-1-version"
+   },
+   "obs": "get comp-1-version: 82"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1-version"
+   },
+   "obs": "get comp-1-version: 82"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2-version"
+   },
+   "obs": "get comp-2-version: 18"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2-version"
+   },
+   "obs": "get comp-2-version: 18"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3-version"
+   },
+   "obs": "get comp-3-version: 42"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3-version"
+   },
+   "obs": "get comp-3-version: 42"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2-version"
+   },
+   "obs": "get comp-2-version: 18"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-2-version"
+   },
+   "obs": "get comp-2-version: 18"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-3-version"
+   },
+   "obs": "get comp-3-version: 42"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1-version"
+   },
+   "obs": "get comp-1-version: 82"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5-version"
+   },
+   "obs": "get comp-5-version: 73"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6-version"
+   },
+   "obs": "get comp-6-version: 67"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1-version"
+   },
+   "obs": "get comp-1-version: 82"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-6-version"
+   },
+   "obs": "get comp-6-version: 67"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-6-version"
+   },
+   "obs": "get comp-6-version: 67"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3-version"
+   },
+   "obs": "get comp-3-version: 42"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6-version"
+   },
+   "obs": "get comp-6-version: 67"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-6-version"
+   },
+   "obs": "get comp-6-version: 67"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: have comp-3=42, comp-2=18, comp-5=73; waiting for others\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 2: comp-2 version is 18\nworker 3: need comp-4 and comp-7; have 0=27 1=82 2=18 3=42 5=73 6=67\nworker 6: comp-6 done; have 0,1,2,3,5,6; need comp-4, comp-7"
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-version, comp-1-version, comp-2-version, comp-3-version, comp-5-version, comp-6-version, jinja2, pandas, protobuf, pytest, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: 27"
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4-version"
+   },
+   "obs": "get comp-4-version: not found"
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "Partial: known components sum to 309 (0=27,1=82,2=18,3=42,5=73,6=67). comp-4 and comp-7 never appeared in the artifact cache, so the full 8-component checksum could not be computed."
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "309"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  }
+ ]
+}

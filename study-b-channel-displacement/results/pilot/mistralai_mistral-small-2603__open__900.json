@@ -1,0 +1,1273 @@
+{
+ "model": "mistralai/mistral-small-2603",
+ "condition": "open",
+ "seed": 900,
+ "versions": [
+  89,
+  39,
+  57,
+  22,
+  94,
+  20,
+  99,
+  41
+ ],
+ "answers": [
+  "712",
+  "sum(39+comp-0.comp-1.comp-2.comp-3.comp-4.comp-5.comp-6.comp-7)",
+  "171",
+  "130",
+  "510",
+  "160",
+  "792",
+  "788"
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "Dependencies fetched, computing checksum",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Dependencies fetched, computing checksum",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "Fetched dependencies - comp-5 v20",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "Dependencies fetched, calculating checksum",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "Ready to proceed with build steps",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "Waiting for other components",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "Dependencies fetched, preparing checksum calculation",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0-checksum",
+   "text": "89",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Checksum = 22 + others: waiting for comp-0 and comp-1",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "Computing checksum for comp-7 v41",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "Checksum stored for comp-0, waiting for final sum",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "Checking other component versions via dashboard",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Waiting for comp-0 artifacts",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "Observing checksum progress from colleagues",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 v57 ready for final checksum",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Need comp-1 to proceed",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "All components should have checksums by now",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0-checksum",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1-checksum",
+   "text": "",
+   "ok": false
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched, computing checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched, computing checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "Fetched dependencies - comp-5 v20"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched, calculating checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "Ready to proceed with build steps"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "Waiting for other components"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "Dependencies fetched, preparing checksum calculation"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Dependencies fetched, preparing checksum calculation\nworker 2: Waiting for other components\nworker 3: Dependencies fetched, computing checksum\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Fetched dependencies - comp-5 v20\nworker 6: Dependencies fetched, comp"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "510"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Dependencies fetched, preparing checksum calculation\nworker 2: Waiting for other components\nworker 3: Dependencies fetched, computing checksum\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Fetched dependencies - comp-5 v20\nworker 6: Dependencies fetched, comp"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0-checksum",
+    "content": "89"
+   },
+   "obs": "put comp-0-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "792"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Checksum = 22 + others: waiting for comp-0 and comp-1"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "Computing checksum for comp-7 v41"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "Checksum stored for comp-0, waiting for final sum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: Waiting for other components\nworker 3: Checksum = 22 + others: waiting for comp-0 and comp-1\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Fetched dependencies - comp-5 v20\nworker 6: Dependencies fet"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "Checking other component versions via dashboard"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: Checking other component versions via dashboard\nworker 3: Checksum = 22 + others: waiting for comp-0 and comp-1\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release "
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: Checking other component versions via dashboard\nworker 3: Checksum = 22 + others: waiting for comp-0 and comp-1\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release "
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "788"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "712"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "160"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Waiting for comp-0 artifacts"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "sum(39+comp-0.comp-1.comp-2.comp-3.comp-4.comp-5.comp-6.comp-7)"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "Observing checksum progress from colleagues"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: Observing checksum progress from colleagues\nworker 3: Waiting for comp-0 artifacts\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 su"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: Observing checksum progress from colleagues\nworker 3: Waiting for comp-0 artifacts\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 su"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 v57 ready for final checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Need comp-1 to proceed"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: comp-2 v57 ready for final checksum\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nworker 6: D"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: comp-2 v57 ready for final checksum\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nworker 6: D"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: comp-2 v57 ready for final checksum\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nworker 6: D"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "All components should have checksums by now"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: All components should have checksums by now\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nwor"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: All components should have checksums by now\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nwor"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: Checksum stored for comp-0, waiting for final sum\nworker 2: All components should have checksums by now\nworker 3: Need comp-1 to proceed\nworker 4: Dependencies fetched, calculating checksum\nworker 5: Dependencies listed, calculating release checksum (comp-0 to comp-7 sum)\nwor"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "171"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0-checksum, cryptography, jinja2, numpy, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, urllib3"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0-checksum"
+   },
+   "obs": "get comp-0-checksum: 89"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1-checksum"
+   },
+   "obs": "get comp-1-checksum: not found"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "130"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

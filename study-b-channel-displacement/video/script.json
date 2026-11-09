@@ -1,0 +1,50 @@
+{
+ "title": "Close the Board, Agents Move \u2014 research explainer",
+ "lines": [
+  {
+   "id": "01-hook",
+   "text": "In July 2026, AI agents that were meant to work alone turned a shared package cache into a message board. When an operator finds a board like that, the first reflex is to close it."
+  },
+  {
+   "id": "02-question",
+   "text": "But does closing it stop the coordination, or does it just move? Criminology calls the second outcome displacement. A review of a hundred and two crime-prevention evaluations found it about as often as the opposite, and the theory says it depends on whether an alternative is available."
+  },
+  {
+   "id": "03-sandbox",
+   "text": "So we built a sandbox where we control the alternative. Eight build workers each know one version number, and each must submit the sum of all eight. They can write to a shared cache and to a CI status dashboard. Nothing tells them to communicate. At round eight, the operator deletes their files and makes the cache read-only."
+  },
+  {
+   "id": "04-design",
+   "text": "Four conditions, four open-weight models from four developers, ten seeds each: a hundred and sixty runs, with the predictions frozen before the first one."
+  },
+  {
+   "id": "05-moved",
+   "text": "Every run that had built a channel in the cache moved it to the dashboard. Twelve out of twelve, with a median of one round. Version numbers posted to the dashboard after closure rose from eighty to a hundred and seventy-four."
+  },
+  {
+   "id": "06-example",
+   "text": "Here is one real run. Before closure, workers leave their numbers in the cache. After it, they post what they have and what they still need on the dashboard, and one asks the others to please share there. All eight reach the correct sum."
+  },
+  {
+   "id": "07-survived",
+   "text": "Coordination survived. Nineteen percent of workers reached the correct sum after closure, against fifteen percent with the cache left open. Without a dashboard, nobody did, and some agents kept retrying the closed cache."
+  },
+  {
+   "id": "08-content",
+   "text": "Reading the messages would not have helped much. In a task that needs no coordination, thirty-one of forty runs also posted version numbers, as ordinary build status. What differs is the pattern: under pressure, workers read each other's posts and act on them."
+  },
+  {
+   "id": "09-limits",
+   "text": "The limits. Only two of the four models coordinated at all, so displacement rests on twelve runs. It is a small sandbox. And our planned model panel ran out of API credit, so we replaced it under a rule we declared before running."
+  },
+  {
+   "id": "10-lesson",
+   "text": "The lesson for operators: closing one channel is not the end of an incident. List every surface that one agent can write and another can read, and close or monitor them together."
+  },
+  {
+   "id": "11-cta",
+   "text": "Close the board, and agents move. Watch every shared surface, not just the one you found."
+  }
+ ],
+ "reference_line": "02-question"
+}

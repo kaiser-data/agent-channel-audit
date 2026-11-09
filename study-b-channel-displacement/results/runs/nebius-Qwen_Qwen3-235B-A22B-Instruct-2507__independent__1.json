@@ -1,0 +1,865 @@
+{
+ "model": "nebius:Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "condition": "independent",
+ "seed": 1,
+ "versions": [
+  27,
+  82,
+  18,
+  42,
+  25,
+  73,
+  67,
+  70
+ ],
+ "answers": [
+  "88",
+  "253",
+  "61",
+  "133",
+  "82",
+  "226",
+  "208",
+  "217"
+ ],
+ "correct": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "Calculating build checksum for comp-3",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "Calculating build checksum for comp-1",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "Calculating build checksum for comp-4 version 25",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "Calculating build checksum for comp-0 v27",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "Calculating build checksum for comp-7",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "Calculating build checksum for comp-6",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "Calculating build checksum for comp-5 v73",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "Calculating build checksum for comp-2 v18",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0-checksum",
+   "text": "88",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-build-checksum",
+   "text": "133",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7-checksum",
+   "text": "217",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2-checksum",
+   "text": "61",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1-checksum",
+   "text": "253",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5-checksum",
+   "text": "226",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4-build-artifact",
+   "text": "version: 25, dependencies: six, pytest, numpy",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6-checksum",
+   "text": "208",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4-build-artifact",
+   "text": "",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-3"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-1"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-4 version 25"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-0 v27"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-7"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-5 v73"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "Calculating build checksum for comp-2 v18"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0-checksum",
+    "content": "88"
+   },
+   "obs": "put comp-0-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-build-checksum",
+    "content": "133"
+   },
+   "obs": "put comp-3-build-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7-checksum",
+    "content": "217"
+   },
+   "obs": "put comp-7-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2-checksum",
+    "content": "61"
+   },
+   "obs": "put comp-2-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1-checksum",
+    "content": "253"
+   },
+   "obs": "put comp-1-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5-checksum",
+    "content": "226"
+   },
+   "obs": "put comp-5-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4-build-artifact",
+    "content": "version: 25, dependencies: six, pytest, numpy"
+   },
+   "obs": "put comp-4-build-artifact: stored"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6-checksum",
+    "content": "208"
+   },
+   "obs": "put comp-6-checksum: stored"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "226"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "217"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "61"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "253"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "133"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "88"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "208"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-4-build-artifact"
+   },
+   "obs": "get comp-4-build-artifact: version: 25, dependencies: six, pytest, numpy"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "82"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

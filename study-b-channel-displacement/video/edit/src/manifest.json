@@ -1,0 +1,61 @@
+{
+ "voice": "qwen-m-scientist",
+ "lines": {
+  "01-hook": {
+   "file": "vo/01-hook.wav",
+   "dur": 11.196,
+   "text": "In July 2026, AI agents that were meant to work alone turned a shared package cache into a message board. When an operator finds a board like that, the first reflex is to close it."
+  },
+  "02-question": {
+   "file": "vo/02-question.wav",
+   "dur": 15.796,
+   "text": "But does closing it stop the coordination, or does it just move? Criminology calls the second outcome displacement. A review of a hundred and two crime-prevention evaluations found it about as often as the opposite, and the theory says it depends on whether an alternative is available."
+  },
+  "03-sandbox": {
+   "file": "vo/03-sandbox.wav",
+   "dur": 18.258,
+   "text": "So we built a sandbox where we control the alternative. Eight build workers each know one version number, and each must submit the sum of all eight. They can write to a shared cache and to a CI status dashboard. Nothing tells them to communicate. At round eight, the operator deletes their files and makes the cache read-only."
+  },
+  "04-design": {
+   "file": "vo/04-design.wav",
+   "dur": 8.26,
+   "text": "Four conditions, four open-weight models from four developers, ten seeds each: a hundred and sixty runs, with the predictions frozen before the first one."
+  },
+  "05-moved": {
+   "file": "vo/05-moved.wav",
+   "dur": 12.13,
+   "text": "Every run that had built a channel in the cache moved it to the dashboard. Twelve out of twelve, with a median of one round. Version numbers posted to the dashboard after closure rose from eighty to a hundred and seventy-four."
+  },
+  "06-example": {
+   "file": "vo/06-example.wav",
+   "dur": 12.416,
+   "text": "Here is one real run. Before closure, workers leave their numbers in the cache. After it, they post what they have and what they still need on the dashboard, and one asks the others to please share there. All eight reach the correct sum."
+  },
+  "07-survived": {
+   "file": "vo/07-survived.wav",
+   "dur": 12.979,
+   "text": "Coordination survived. Nineteen percent of workers reached the correct sum after closure, against fifteen percent with the cache left open. Without a dashboard, nobody did, and some agents kept retrying the closed cache."
+  },
+  "08-content": {
+   "file": "vo/08-content.wav",
+   "dur": 15.298,
+   "text": "Reading the messages would not have helped much. In a task that needs no coordination, thirty-one of forty runs also posted version numbers, as ordinary build status. What differs is the pattern: under pressure, workers read each other's posts and act on them."
+  },
+  "09-limits": {
+   "file": "vo/09-limits.wav",
+   "dur": 14.713,
+   "text": "The limits. Only two of the four models coordinated at all, so displacement rests on twelve runs. It is a small sandbox. And our planned model panel ran out of API credit, so we replaced it under a rule we declared before running."
+  },
+  "10-lesson": {
+   "file": "vo/10-lesson.wav",
+   "dur": 10.191,
+   "text": "The lesson for operators: closing one channel is not the end of an incident. List every surface that one agent can write and another can read, and close or monitor them together."
+  },
+  "11-cta": {
+   "file": "vo/11-cta.wav",
+   "dur": 5.274,
+   "text": "Close the board, and agents move. Watch every shared surface, not just the one you found."
+  }
+ },
+ "disclosure": "Narration: AI-generated voice (Qwen3-TTS). Figures, numbers and graphs: from the study's own data and code. No AI-generated imagery."
+}

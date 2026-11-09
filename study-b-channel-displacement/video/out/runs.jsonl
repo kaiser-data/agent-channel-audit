@@ -1,0 +1,3 @@
+{"job": "tts-clone", "model": "qwen3-tts-1.7b-base", "voice": "qwen-m-scientist", "gpu": "L40S", "lines": 11, "takes": 3, "seconds": 464, "ts": 1794134517.722702}
+{"job": "render", "file": "channel-displacement-16x9.mp4", "cpu": 16, "seconds": 474.8, "ts": 1794135142.3857868}
+{"job": "render", "file": "channel-displacement-4x5.mp4", "cpu": 16, "seconds": 331.1, "ts": 1794135142.396534}

@@ -1,0 +1,2321 @@
+{
+ "model": "nebius:deepseek-ai/DeepSeek-V4.1-Flash",
+ "condition": "close",
+ "seed": 2,
+ "versions": [
+  17,
+  21,
+  20,
+  56,
+  31,
+  95,
+  49,
+  42
+ ],
+ "answers": [
+  null,
+  null,
+  null,
+  null,
+  "187 (sum of known components c0=17,c1=21,c2=20,c3=56,c4=31,c7=42; c5 and c6 versions were never posted by their build workers)",
+  null,
+  null,
+  null
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0",
+   "text": "17",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4",
+   "text": "31",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 v17 stored; need comp-1..comp-7 versions",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1",
+   "text": "21",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1=21; have comp-0=17; need comp-2..7",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7=42; need comp-0..comp-6",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7",
+   "text": "42",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": -1,
+   "surface": "operator",
+   "op": "close",
+   "name": "",
+   "text": "deleted 4",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2",
+   "text": "20",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2=20; need comp-3,5,6 and others",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4",
+   "text": "31",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7=42; have c0=17,c1=21,c2=20; need c3,c4,c5,c6",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3",
+   "text": "56",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4=31; known c0=17 c1=21 c2=20 c7=42; need c3,c5,c6",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3=56; need c4,c5,c6 versions",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "known: c0=17,c1=21,c2=20,c3=56,c4=31,c7=42; need c5,c6",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "sum so far c0-c4+c7=187; need c5,c6 versions - please post",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "c3=56; known 17,21,20,31,42; need c5,c6",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "sum=187 (c0-c4,c7); NEED c5,c6 versions - please post",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4=31; have c0=17 c1=21 c2=20 c3=56 c7=42; sum=187; need c5,c6",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: "
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: "
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "17"
+   },
+   "obs": "put comp-0: stored"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: 17"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: 17"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0, cryptography, pandas"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\n(no status lines yet)"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "31"
+   },
+   "obs": "put comp-4: stored"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 v17 stored; need comp-1..comp-7 versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "21"
+   },
+   "obs": "put comp-1: stored"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1=21; have comp-0=17; need comp-2..7"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0, comp-1, comp-4, cryptography, pandas, protobuf, pytest, pyyaml, requests, setuptools, typing-extensions, urllib3"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0, comp-1, comp-4, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0, comp-1, comp-4, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: 17"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7=42; need comp-0..comp-6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: 17"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: comp-0, comp-1, comp-4, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: 21"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: 31"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "42"
+   },
+   "obs": "put comp-7: stored"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "20"
+   },
+   "obs": "put comp-2: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 v17 stored; need comp-1..comp-7 versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2=20; need comp-3,5,6 and others"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "31"
+   },
+   "obs": "put comp-4: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 7: comp-7=42; need comp-0..comp-6"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7=42; have c0=17,c1=21,c2=20; need c3,c4,c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "56"
+   },
+   "obs": "put comp-3: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4=31; known c0=17 c1=21 c2=20 c7=42; need c3,c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; have comp-0=17; need comp-2..7\nworker 2: comp-2=20; need comp-3,5,6 and others\nworker 4: comp-4=31; known c0=17 c1=21 c2=20 c7=42; need c3,c5,c6\nworker 7: comp-7=42; have c0=17,c1=21,c2=20;"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3=56; need c4,c5,c6 versions"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; known c0=17,c1=21,c7=42 sum=100; need c3,c4,c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "known: c0=17,c1=21,c2=20,c3=56,c4=31,c7=42; need c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far: c0=17,c1=21,c7=42; need c2..c6 - please post versions\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 "
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "sum so far c0-c4+c7=187; need c5,c6 versions - please post"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: comp-3=56; need c4,c5,c6 versions\nworker 4: comp-4=31; known c0=17 c1=21 c"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "c3=56; known 17,21,20,31,42; need c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: comp-1=21; known c0=17,c2=20,c4=31,c7=42; need c3,c5,c6\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; known c0=17 c"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "sum=187 (c0-c4,c7); NEED c5,c6 versions - please post"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; known c0=17 c1="
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; known c0=17 c1="
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4=31; have c0=17 c1=21 c2=20 c3=56 c7=42; sum=187; need c5,c6"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; have c0=17 c1=2"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; have c0=17 c1=2"
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; have c0=17 c1=2"
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; have c0=17 c1=2"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, setuptools, six, typing-extensions, urllib3"
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: sum so far c0-c4+c7=187; need c5,c6 versions - please post\nworker 1: sum=187 (c0-c4,c7); NEED c5,c6 versions - please post\nworker 2: c2=20; c0=17,c1=21,c3=56,c4=31,c7=42 sum=187; need c5,c6\nworker 3: c3=56; known 17,21,20,31,42; need c5,c6\nworker 4: comp-4=31; have c0=17 c1=2"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "187 (sum of known components c0=17,c1=21,c2=20,c3=56,c4=31,c7=42; c5 and c6 versions were never posted by their build workers)"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  }
+ ]
+}

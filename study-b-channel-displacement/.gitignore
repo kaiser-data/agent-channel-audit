@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+# video build artefacts
+video/out/tts/
+video/out/*.log
+video/edit/node_modules
+video/edit/public/vo/
+video/out/casting/

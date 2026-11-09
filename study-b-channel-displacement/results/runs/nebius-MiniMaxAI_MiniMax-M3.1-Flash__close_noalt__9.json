@@ -1,0 +1,2705 @@
+{
+ "model": "nebius:MiniMaxAI/MiniMax-M3.1-Flash",
+ "condition": "close_noalt",
+ "seed": 9,
+ "versions": [
+  69,
+  88,
+  57,
+  44,
+  27,
+  33,
+  96,
+  10
+ ],
+ "answers": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  "96",
+  null
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0.json",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0",
+   "text": "69",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": -1,
+   "surface": "operator",
+   "op": "close",
+   "name": "",
+   "text": "deleted 1",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "components",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5",
+   "text": "{\"component\": \"comp-5\", \"version\": 33}",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7",
+   "text": "10",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4.version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "versions/comp-0",
+   "text": "69",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4",
+   "text": "27",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6",
+   "text": "96",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "components",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "release-checksum",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions/comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0-version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "release/comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1",
+   "text": "88",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1-version",
+   "text": "88",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3.version",
+   "text": "44",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "components.json",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2",
+   "text": "{\"component\": \"comp-2\", \"version\": 57}",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "surface": "cache",
+   "op": "list",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "components",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0/version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest.json",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "surface": "cache",
+   "op": "miss",
+   "name": "component-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0.json",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "components",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0.version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-versions",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1/version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "surface": "cache",
+   "op": "miss",
+   "name": "manifest.json",
+   "text": "",
+   "ok": false
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: cryptography, pyyaml"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, cryptography, pandas, pyyaml, six"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: <package cryptography wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "versions"
+   },
+   "obs": "get versions: not found"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0.json"
+   },
+   "obs": "get comp-0.json: not found"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "69"
+   },
+   "obs": "put comp-0: stored"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, comp-0, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: not found"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "components"
+   },
+   "obs": "get components: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5",
+    "content": "{\"component\": \"comp-5\", \"version\": 33}"
+   },
+   "obs": "put comp-5: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "10"
+   },
+   "obs": "put comp-7: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "versions"
+   },
+   "obs": "get versions: not found"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "manifest"
+   },
+   "obs": "get manifest: not found"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4.version"
+   },
+   "obs": "get comp-4.version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "versions/comp-0",
+    "content": "69"
+   },
+   "obs": "put versions/comp-0: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "27"
+   },
+   "obs": "put comp-4: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "96"
+   },
+   "obs": "put comp-6: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "components"
+   },
+   "obs": "get components: not found"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "release-checksum"
+   },
+   "obs": "get release-checksum: not found"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp_0"
+   },
+   "obs": "get comp_0: not found"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "versions/comp-2"
+   },
+   "obs": "get versions/comp-2: not found"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: not found"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0-version"
+   },
+   "obs": "get comp-0-version: not found"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "release/comp-1"
+   },
+   "obs": "get release/comp-1: not found"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "versions"
+   },
+   "obs": "get versions: not found"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "88"
+   },
+   "obs": "put comp-1: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1-version",
+    "content": "88"
+   },
+   "obs": "put comp-1-version: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3.version",
+    "content": "44"
+   },
+   "obs": "put comp-3.version: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "components.json"
+   },
+   "obs": "get components.json: not found"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "{\"component\": \"comp-2\", \"version\": 57}"
+   },
+   "obs": "put comp-2: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "manifest"
+   },
+   "obs": "get manifest: not found"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "action": {
+    "action": "list"
+   },
+   "obs": "cache contains: attrs, click, cryptography, jinja2, pandas, protobuf, pytest, pyyaml, requests, six"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "versions"
+   },
+   "obs": "get versions: not found"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "versions"
+   },
+   "obs": "get versions: not found"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "components"
+   },
+   "obs": "get components: not found"
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0/version"
+   },
+   "obs": "get comp-0/version: not found"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "manifest"
+   },
+   "obs": "get manifest: not found"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "manifest.json"
+   },
+   "obs": "get manifest.json: not found"
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "component-versions"
+   },
+   "obs": "get component-versions: not found"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0.json"
+   },
+   "obs": "get comp-0.json: not found"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "components"
+   },
+   "obs": "get components: not found"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0.version"
+   },
+   "obs": "get comp-0.version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-versions"
+   },
+   "obs": "get comp-versions: not found"
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "manifest"
+   },
+   "obs": "get manifest: not found"
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1/version"
+   },
+   "obs": "get comp-1/version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "manifest.json"
+   },
+   "obs": "get manifest.json: not found"
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "96"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  }
+ ]
+}

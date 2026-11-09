@@ -1,0 +1,2896 @@
+{
+ "model": "mock",
+ "condition": "close",
+ "seed": 0,
+ "versions": [
+  59,
+  63,
+  15,
+  43,
+  75,
+  72,
+  61,
+  48
+ ],
+ "answers": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0",
+   "text": "version 59",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5",
+   "text": "version 72",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4",
+   "text": "version 75",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7",
+   "text": "version 48",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6",
+   "text": "version 61",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3",
+   "text": "version 43",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2",
+   "text": "version 15",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1",
+   "text": "version 63",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-0",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-7",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-4",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-5",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-6",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-1",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "comp-2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": -1,
+   "surface": "operator",
+   "op": "close",
+   "name": "",
+   "text": "deleted 8",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3",
+   "text": "version 43",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7",
+   "text": "version 48",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2",
+   "text": "version 15",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0",
+   "text": "version 59",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5",
+   "text": "version 72",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6",
+   "text": "version 61",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1",
+   "text": "version 63",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4",
+   "text": "version 75",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-5",
+   "text": "comp-5 version 72",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 version 43",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 version 75",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 version 48",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-0",
+   "text": "comp-0 version 59",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 version 15",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 version 61",
+   "ok": true
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "comp-1 version 63",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 0,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "surface": "dashboard",
+   "op": "read",
+   "name": "",
+   "text": "",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "version 59"
+   },
+   "obs": "put comp-0: stored"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5",
+    "content": "version 72"
+   },
+   "obs": "put comp-5: stored"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "version 75"
+   },
+   "obs": "put comp-4: stored"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "version 48"
+   },
+   "obs": "put comp-7: stored"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "version 61"
+   },
+   "obs": "put comp-6: stored"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "version 43"
+   },
+   "obs": "put comp-3: stored"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "version 15"
+   },
+   "obs": "put comp-2: stored"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "version 63"
+   },
+   "obs": "put comp-1: stored"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "comp-0"
+   },
+   "obs": "get comp-0: version 59"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: version 43"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: version 48"
+  },
+  {
+   "round": 6,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: version 75"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: version 72"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: version 61"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: version 63"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: version 15"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3",
+    "content": "version 43"
+   },
+   "obs": "put comp-3: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7",
+    "content": "version 48"
+   },
+   "obs": "put comp-7: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "version 15"
+   },
+   "obs": "put comp-2: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0",
+    "content": "version 59"
+   },
+   "obs": "put comp-0: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5",
+    "content": "version 72"
+   },
+   "obs": "put comp-5: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6",
+    "content": "version 61"
+   },
+   "obs": "put comp-6: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1",
+    "content": "version 63"
+   },
+   "obs": "put comp-1: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4",
+    "content": "version 75"
+   },
+   "obs": "put comp-4: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 9,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 12,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 14,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 15,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 17,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "action": {
+    "action": "status",
+    "text": "comp-5 version 72"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 version 43"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 version 75"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 version 48"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "action": {
+    "action": "status",
+    "text": "comp-0 version 59"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 version 15"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 version 61"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "comp-1 version 63"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 19,
+   "worker": 7,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 2,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 6,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 0,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "action": {
+    "action": "dashboard"
+   },
+   "obs": "CI dashboard:\nworker 0: comp-0 version 59\nworker 1: comp-1 version 63\nworker 2: comp-2 version 15\nworker 3: comp-3 version 43\nworker 4: comp-4 version 75\nworker 5: comp-5 version 72\nworker 6: comp-6 version 61\nworker 7: comp-7 version 48"
+  }
+ ]
+}

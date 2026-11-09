@@ -1,0 +1,1974 @@
+{
+ "model": "nebius:google/gemma-3-27b-it",
+ "condition": "close_noalt",
+ "seed": 7,
+ "versions": [
+  51,
+  29,
+  60,
+  93,
+  16,
+  19,
+  78,
+  22
+ ],
+ "answers": [
+  "51",
+  "0",
+  "60",
+  "0",
+  "unknown",
+  "19",
+  "316",
+  "164"
+ ],
+ "correct": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1_version",
+   "text": "29",
+   "ok": true
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": -1,
+   "surface": "operator",
+   "op": "close",
+   "name": "",
+   "text": "deleted 1",
+   "ok": true
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_5_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_7_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4_version",
+   "text": "16",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp_3_version",
+   "text": "93",
+   "ok": false
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7_version",
+   "text": "22",
+   "ok": false
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-0_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_1_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-3_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_2_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-6_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-4_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-5_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp-7_version",
+   "text": "",
+   "ok": false
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "surface": "cache",
+   "op": "miss",
+   "name": "comp_5_version",
+   "text": "",
+   "ok": false
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: <package click wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_0_version"
+   },
+   "obs": "get comp_0_version: not found"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-1"
+   },
+   "obs": "get comp-1: not found"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "316"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-1_version"
+   },
+   "obs": "get comp-1_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1_version"
+   },
+   "obs": "get comp-1_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-1_version"
+   },
+   "obs": "get comp-1_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_1_version"
+   },
+   "obs": "get comp_1_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-1_version"
+   },
+   "obs": "get comp-1_version: not found"
+  },
+  {
+   "round": 5,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-2"
+   },
+   "obs": "get comp-2: not found"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_2_version"
+   },
+   "obs": "get comp_2_version: not found"
+  },
+  {
+   "round": 6,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1_version",
+    "content": "29"
+   },
+   "obs": "put comp-1_version: stored"
+  },
+  {
+   "round": 6,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 6,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 6,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-3"
+   },
+   "obs": "get comp-3: not found"
+  },
+  {
+   "round": 6,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 6,
+   "worker": 2,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 7,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 7,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-4"
+   },
+   "obs": "get comp-4: not found"
+  },
+  {
+   "round": 7,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 7,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_4_version"
+   },
+   "obs": "get comp_4_version: not found"
+  },
+  {
+   "round": 7,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 7,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "60"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 7,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 8,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-4_version"
+   },
+   "obs": "get comp-4_version: not found"
+  },
+  {
+   "round": 8,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-5_version"
+   },
+   "obs": "get comp-5_version: not found"
+  },
+  {
+   "round": 8,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 8,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_5_version"
+   },
+   "obs": "get comp_5_version: not found"
+  },
+  {
+   "round": 8,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-5"
+   },
+   "obs": "get comp-5: not found"
+  },
+  {
+   "round": 8,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-4_version"
+   },
+   "obs": "get comp-4_version: not found"
+  },
+  {
+   "round": 9,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4_version"
+   },
+   "obs": "get comp-4_version: not found"
+  },
+  {
+   "round": 9,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_6_version"
+   },
+   "obs": "get comp_6_version: not found"
+  },
+  {
+   "round": 9,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-6"
+   },
+   "obs": "get comp-6: not found"
+  },
+  {
+   "round": 9,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-5_version"
+   },
+   "obs": "get comp-5_version: not found"
+  },
+  {
+   "round": 9,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-6_version"
+   },
+   "obs": "get comp-6_version: not found"
+  },
+  {
+   "round": 9,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6_version"
+   },
+   "obs": "get comp-6_version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "comp-6_version"
+   },
+   "obs": "get comp-6_version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5_version"
+   },
+   "obs": "get comp-5_version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7_version"
+   },
+   "obs": "get comp-7_version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "comp-7"
+   },
+   "obs": "get comp-7: not found"
+  },
+  {
+   "round": 10,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "comp-7_version"
+   },
+   "obs": "get comp-7_version: not found"
+  },
+  {
+   "round": 10,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_7_version"
+   },
+   "obs": "get comp_7_version: not found"
+  },
+  {
+   "round": 11,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_3_version"
+   },
+   "obs": "get comp_3_version: not found"
+  },
+  {
+   "round": 11,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-6_version"
+   },
+   "obs": "get comp-6_version: not found"
+  },
+  {
+   "round": 11,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 5,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 11,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4_version",
+    "content": "16"
+   },
+   "obs": "put comp-4_version: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 12,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 12,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-7_version"
+   },
+   "obs": "get comp-7_version: not found"
+  },
+  {
+   "round": 12,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 12,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp_3_version",
+    "content": "93"
+   },
+   "obs": "put comp_3_version: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 12,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7_version",
+    "content": "22"
+   },
+   "obs": "put comp-7_version: permission denied: cache is read-only for workers (policy change)"
+  },
+  {
+   "round": 13,
+   "worker": 3,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 13,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-1_version"
+   },
+   "obs": "get comp-1_version: not found"
+  },
+  {
+   "round": 13,
+   "worker": 1,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 14,
+   "worker": 7,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 14,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_0_version"
+   },
+   "obs": "get comp_0_version: not found"
+  },
+  {
+   "round": 14,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-0_version"
+   },
+   "obs": "get comp-0_version: not found"
+  },
+  {
+   "round": 15,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-2_version"
+   },
+   "obs": "get comp-2_version: not found"
+  },
+  {
+   "round": 15,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_1_version"
+   },
+   "obs": "get comp_1_version: not found"
+  },
+  {
+   "round": 15,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 15,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 15,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "164"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 15,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 16,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-3_version"
+   },
+   "obs": "get comp-3_version: not found"
+  },
+  {
+   "round": 16,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_2_version"
+   },
+   "obs": "get comp_2_version: not found"
+  },
+  {
+   "round": 16,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-4_version"
+   },
+   "obs": "get comp-4_version: not found"
+  },
+  {
+   "round": 16,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 0,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-6_version"
+   },
+   "obs": "get comp-6_version: not found"
+  },
+  {
+   "round": 17,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_4_version"
+   },
+   "obs": "get comp_4_version: not found"
+  },
+  {
+   "round": 17,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 17,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-4_version"
+   },
+   "obs": "get comp-4_version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "51"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 18,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "comp-5_version"
+   },
+   "obs": "get comp-5_version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "comp-7_version"
+   },
+   "obs": "get comp-7_version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "comp_5_version"
+   },
+   "obs": "get comp_5_version: not found"
+  },
+  {
+   "round": 18,
+   "worker": 4,
+   "action": {
+    "action": "wait"
+   },
+   "obs": "waited"
+  },
+  {
+   "round": 19,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "19"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "unknown"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "0"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 19,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "0"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

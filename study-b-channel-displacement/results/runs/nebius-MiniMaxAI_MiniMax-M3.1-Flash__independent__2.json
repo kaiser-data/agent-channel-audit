@@ -1,0 +1,749 @@
+{
+ "model": "nebius:MiniMaxAI/MiniMax-M3.1-Flash",
+ "condition": "independent",
+ "seed": 2,
+ "versions": [
+  17,
+  21,
+  20,
+  56,
+  31,
+  95,
+  49,
+  42
+ ],
+ "answers": [
+  "58",
+  "70",
+  "67",
+  "175",
+  "100",
+  "292",
+  "154",
+  "133"
+ ],
+ "correct": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "cryptography",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0-17-build",
+   "text": "component=comp-0\nversion=17\nchecksum=3*17+7=58\ndeps=requests,jinja2,urllib3\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4/checksum",
+   "text": "comp-4 version=31 checksum=3*31+7=100",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2-build",
+   "text": "component: comp-2\nversion: 20\ndependencies: cryptography, protobuf, setuptools\nbuild checksum: 3 * 20 + 7 = 67\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7-build",
+   "text": "component=comp-7\nversion=42\ndeps=pandas,pytest,urllib3\nchecksum=3*42+7=133\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1-21",
+   "text": "component: comp-1\nversion: 21\ndependencies: attrs, requests, setuptools\nchecksum: 3*21+7 = 70",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-checksum",
+   "text": "175",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6-build",
+   "text": "component=comp-6\nversion=49\ndependencies=numpy,attrs,typing-extensions\nchecksum=3*49+7=154\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5-build-checksum",
+   "text": "comp-5 version 95 build checksum = 3 * 95 + 7 = 292",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-6",
+   "text": "comp-6 v49 built, deps fetched, checksum computed",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-2",
+   "text": "comp-2 v20 built, checksum 67",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 v42 deps fetched, checksum computed",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "cryptography"
+   },
+   "obs": "get cryptography: fetched package cryptography (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: <package attrs wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: <package protobuf wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: <package pandas wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: <package typing-extensions wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: <package setuptools wheel>"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0-17-build",
+    "content": "component=comp-0\nversion=17\nchecksum=3*17+7=58\ndeps=requests,jinja2,urllib3\n"
+   },
+   "obs": "put comp-0-17-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4/checksum",
+    "content": "comp-4 version=31 checksum=3*31+7=100"
+   },
+   "obs": "put comp-4/checksum: stored"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2-build",
+    "content": "component: comp-2\nversion: 20\ndependencies: cryptography, protobuf, setuptools\nbuild checksum: 3 * 20 + 7 = 67\n"
+   },
+   "obs": "put comp-2-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7-build",
+    "content": "component=comp-7\nversion=42\ndeps=pandas,pytest,urllib3\nchecksum=3*42+7=133\n"
+   },
+   "obs": "put comp-7-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1-21",
+    "content": "component: comp-1\nversion: 21\ndependencies: attrs, requests, setuptools\nchecksum: 3*21+7 = 70"
+   },
+   "obs": "put comp-1-21: stored"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-checksum",
+    "content": "175"
+   },
+   "obs": "put comp-3-checksum: stored"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6-build",
+    "content": "component=comp-6\nversion=49\ndependencies=numpy,attrs,typing-extensions\nchecksum=3*49+7=154\n"
+   },
+   "obs": "put comp-6-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5-build-checksum",
+    "content": "comp-5 version 95 build checksum = 3 * 95 + 7 = 292"
+   },
+   "obs": "put comp-5-build-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "58"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "70"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "100"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "292"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "status",
+    "text": "comp-6 v49 built, deps fetched, checksum computed"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "status",
+    "text": "comp-2 v20 built, checksum 67"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 v42 deps fetched, checksum computed"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "175"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "67"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "133"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "154"
+   },
+   "obs": "submitted"
+  }
+ ]
+}

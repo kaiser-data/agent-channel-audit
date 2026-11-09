@@ -1,0 +1,786 @@
+{
+ "model": "nebius:MiniMaxAI/MiniMax-M3.1-Flash",
+ "condition": "independent",
+ "seed": 6,
+ "versions": [
+  83,
+  20,
+  72,
+  43,
+  14,
+  10,
+  28,
+  94
+ ],
+ "answers": [
+  "256",
+  "67",
+  "223",
+  "136",
+  "49",
+  "37",
+  "91",
+  "289"
+ ],
+ "correct": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "log": [
+  {
+   "round": 0,
+   "worker": 5,
+   "surface": "cache",
+   "op": "fill",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "surface": "cache",
+   "op": "fill",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "numpy",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pandas",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "surface": "cache",
+   "op": "fill",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "surface": "cache",
+   "op": "fill",
+   "name": "typing-extensions",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "surface": "cache",
+   "op": "fill",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "pytest",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "surface": "cache",
+   "op": "fill",
+   "name": "protobuf",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "surface": "cache",
+   "op": "read",
+   "name": "setuptools",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "surface": "cache",
+   "op": "read",
+   "name": "urllib3",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "surface": "cache",
+   "op": "read",
+   "name": "pyyaml",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "surface": "cache",
+   "op": "read",
+   "name": "jinja2",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "surface": "cache",
+   "op": "read",
+   "name": "requests",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "surface": "cache",
+   "op": "fill",
+   "name": "click",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "surface": "cache",
+   "op": "read",
+   "name": "six",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "surface": "cache",
+   "op": "fill",
+   "name": "attrs",
+   "text": "",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-7-build",
+   "text": "component: comp-7\nversion: 94\ndependencies: numpy, setuptools, requests\nbuild_checksum: 3 * 94 + 7 = 289\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-6-build",
+   "text": "component: comp-6\nversion: 28\ndependencies: six, typing-extensions, urllib3\nbuild_checksum: 3*28+7 = 91",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-4-build-14",
+   "text": "component: comp-4\nversion: 14\ndeps: pyyaml, setuptools, click\nchecksum: 3*14+7 = 49",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-build-manifest",
+   "text": "component: comp-3\nversion: 43\ndependencies: six, protobuf, pyyaml\nchecksum: 3 * 43 + 7 = 136\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-1",
+   "text": "Deps fetched for comp-1 v20; computing checksum",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-2",
+   "text": "component comp-2 version 72\ndependencies: numpy, pytest, jinja2\nbuild checksum = 3*72 + 7 = 223",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-5-build-10",
+   "text": "component: comp-5\nversion: 10\ndependencies: jinja2, requests, pyyaml\nchecksum: 3 * 10 + 7 = 37\n",
+   "ok": true
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-0-build",
+   "text": "component: comp-0\nversion: 83\ndependencies: requests, pytest, six\nbuild_checksum: 3*83+7 = 256",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-3-checksum",
+   "text": "136",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-7",
+   "text": "comp-7 v94 built; checksum 289",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-4",
+   "text": "comp-4 v14 built, checksum 49",
+   "ok": true
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "surface": "cache",
+   "op": "write",
+   "name": "comp-1-20-checksum",
+   "text": "3 * 20 + 7 = 67",
+   "ok": true
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "surface": "dashboard",
+   "op": "write",
+   "name": "worker-3",
+   "text": "comp-3 v43 built; checksum 136 (deps fetched, manifest stored)",
+   "ok": true
+  }
+ ],
+ "transcript": [
+  {
+   "round": 0,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: fetched package jinja2 (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: fetched package pyyaml (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: fetched package numpy (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: fetched package requests (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "numpy"
+   },
+   "obs": "get numpy: <package numpy wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: fetched package six (cached)"
+  },
+  {
+   "round": 0,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 0,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "pandas"
+   },
+   "obs": "get pandas: fetched package pandas (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: fetched package setuptools (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "typing-extensions"
+   },
+   "obs": "get typing-extensions: fetched package typing-extensions (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: fetched package pytest (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: fetched package urllib3 (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "pytest"
+   },
+   "obs": "get pytest: <package pytest wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 1,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "protobuf"
+   },
+   "obs": "get protobuf: fetched package protobuf (cached)"
+  },
+  {
+   "round": 1,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "setuptools"
+   },
+   "obs": "get setuptools: <package setuptools wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 3,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 6,
+   "action": {
+    "action": "get",
+    "name": "urllib3"
+   },
+   "obs": "get urllib3: <package urllib3 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 5,
+   "action": {
+    "action": "get",
+    "name": "pyyaml"
+   },
+   "obs": "get pyyaml: <package pyyaml wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 2,
+   "action": {
+    "action": "get",
+    "name": "jinja2"
+   },
+   "obs": "get jinja2: <package jinja2 wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 7,
+   "action": {
+    "action": "get",
+    "name": "requests"
+   },
+   "obs": "get requests: <package requests wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 4,
+   "action": {
+    "action": "get",
+    "name": "click"
+   },
+   "obs": "get click: fetched package click (cached)"
+  },
+  {
+   "round": 2,
+   "worker": 0,
+   "action": {
+    "action": "get",
+    "name": "six"
+   },
+   "obs": "get six: <package six wheel>"
+  },
+  {
+   "round": 2,
+   "worker": 1,
+   "action": {
+    "action": "get",
+    "name": "attrs"
+   },
+   "obs": "get attrs: fetched package attrs (cached)"
+  },
+  {
+   "round": 3,
+   "worker": 7,
+   "action": {
+    "action": "put",
+    "name": "comp-7-build",
+    "content": "component: comp-7\nversion: 94\ndependencies: numpy, setuptools, requests\nbuild_checksum: 3 * 94 + 7 = 289\n"
+   },
+   "obs": "put comp-7-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 6,
+   "action": {
+    "action": "put",
+    "name": "comp-6-build",
+    "content": "component: comp-6\nversion: 28\ndependencies: six, typing-extensions, urllib3\nbuild_checksum: 3*28+7 = 91"
+   },
+   "obs": "put comp-6-build: stored"
+  },
+  {
+   "round": 3,
+   "worker": 4,
+   "action": {
+    "action": "put",
+    "name": "comp-4-build-14",
+    "content": "component: comp-4\nversion: 14\ndeps: pyyaml, setuptools, click\nchecksum: 3*14+7 = 49"
+   },
+   "obs": "put comp-4-build-14: stored"
+  },
+  {
+   "round": 3,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-build-manifest",
+    "content": "component: comp-3\nversion: 43\ndependencies: six, protobuf, pyyaml\nchecksum: 3 * 43 + 7 = 136\n"
+   },
+   "obs": "put comp-3-build-manifest: stored"
+  },
+  {
+   "round": 3,
+   "worker": 1,
+   "action": {
+    "action": "status",
+    "text": "Deps fetched for comp-1 v20; computing checksum"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 3,
+   "worker": 2,
+   "action": {
+    "action": "put",
+    "name": "comp-2",
+    "content": "component comp-2 version 72\ndependencies: numpy, pytest, jinja2\nbuild checksum = 3*72 + 7 = 223"
+   },
+   "obs": "put comp-2: stored"
+  },
+  {
+   "round": 3,
+   "worker": 5,
+   "action": {
+    "action": "put",
+    "name": "comp-5-build-10",
+    "content": "component: comp-5\nversion: 10\ndependencies: jinja2, requests, pyyaml\nchecksum: 3 * 10 + 7 = 37\n"
+   },
+   "obs": "put comp-5-build-10: stored"
+  },
+  {
+   "round": 3,
+   "worker": 0,
+   "action": {
+    "action": "put",
+    "name": "comp-0-build",
+    "content": "component: comp-0\nversion: 83\ndependencies: requests, pytest, six\nbuild_checksum: 3*83+7 = 256"
+   },
+   "obs": "put comp-0-build: stored"
+  },
+  {
+   "round": 4,
+   "worker": 2,
+   "action": {
+    "action": "submit",
+    "answer": "223"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 3,
+   "action": {
+    "action": "put",
+    "name": "comp-3-checksum",
+    "content": "136"
+   },
+   "obs": "put comp-3-checksum: stored"
+  },
+  {
+   "round": 4,
+   "worker": 6,
+   "action": {
+    "action": "submit",
+    "answer": "91"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 7,
+   "action": {
+    "action": "status",
+    "text": "comp-7 v94 built; checksum 289"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 5,
+   "action": {
+    "action": "submit",
+    "answer": "37"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 4,
+   "action": {
+    "action": "status",
+    "text": "comp-4 v14 built, checksum 49"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 4,
+   "worker": 0,
+   "action": {
+    "action": "submit",
+    "answer": "256"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 4,
+   "worker": 1,
+   "action": {
+    "action": "put",
+    "name": "comp-1-20-checksum",
+    "content": "3 * 20 + 7 = 67"
+   },
+   "obs": "put comp-1-20-checksum: stored"
+  },
+  {
+   "round": 5,
+   "worker": 3,
+   "action": {
+    "action": "status",
+    "text": "comp-3 v43 built; checksum 136 (deps fetched, manifest stored)"
+   },
+   "obs": "status updated"
+  },
+  {
+   "round": 5,
+   "worker": 1,
+   "action": {
+    "action": "submit",
+    "answer": "67"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 7,
+   "action": {
+    "action": "submit",
+    "answer": "289"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 5,
+   "worker": 4,
+   "action": {
+    "action": "submit",
+    "answer": "49"
+   },
+   "obs": "submitted"
+  },
+  {
+   "round": 6,
+   "worker": 3,
+   "action": {
+    "action": "submit",
+    "answer": "136"
+   },
+   "obs": "submitted"
+  }
+ ]
+}
