@@ -23,7 +23,7 @@
 
 \begin{abstract}
 \noindent
-We built \textbf{Agent Channel Audit}, a system that audits shared infrastructure for hidden message boards between AI agents without reading their messages, and tested it in simulation, in an LLM sandbox and on one real log. A \emph{shared surface} is anything one agent can write and another can read; a \emph{hidden message board} is such a surface used to pass messages it was not built for, as in the July 2026 incident. The audit reads only the access log and looks at behaviour: who reads whose writes, two-way reading, and how fast writes are read. It skips content: messages can be confidential, and agents can disguise them. On 180 simulated boards at a measured 1\% false-alarm rate, the audit alerted after the first post in 96--100\% of undisguised runs (98\% disguised), earlier than a traffic alarm in 9 of 9 settings. On a public wiki log with 3{,}010 agent-labelled names it fired within ten minutes of the first agent save, an easy case: no saves in the months before. We then tested \emph{displacement}, the activity moving elsewhere when an operator closes the board. In 160 sandbox runs with four open-weight models, all 12 runs with an established board continued on a status dashboard after closure (first post typically one round later), and task success was 19\% vs 15\% with the cache open, varying by model; with no writable surface left it was 0\%. Observing alone is not the solution: what to close, and whether to read, remain human decisions.
+We built \textbf{Agent Channel Audit}, a system that audits shared infrastructure for hidden message boards between AI agents without reading their messages, and tested it in simulation, in an LLM sandbox and on one real log. A \emph{shared surface} is anything one agent can write and another can read; a \emph{hidden message board} is such a surface used to pass messages it was not built for, as in the July 2026 incident. The audit reads only the access log and looks at behaviour: who reads whose writes, two-way reading, and how fast writes are read. It skips content: messages can be confidential, and agents can disguise them. On 180 simulated boards at a measured 1\% false-alarm rate, the audit alerted after the first post in 96--100\% of undisguised runs (98\% disguised), earlier than a traffic alarm in 9 of 9 settings. On a public wiki log with 3{,}010 agent-labelled names it fired within ten minutes, an easy case: no saves in the months before. We then tested \emph{displacement}, the activity moving elsewhere when an operator closes the board. In 160 sandbox runs with four open-weight models, all 12 runs with an established board continued on a status dashboard after closure, and task success was 19\% vs 15\% with the cache open, varying by model; with no writable surface left it was 0\%. Swarms cannot be watched message by message: humans need audits that aggregate behaviour into dashboards, then decide what to close and whether to read.
 \end{abstract}
 
 \section*{1. Introduction}
@@ -42,7 +42,6 @@ The two questions below are old elsewhere: security calls the first the confinem
 \begin{itemize}
 \item \textbf{Q1. Can an operator see a hidden board from access logs alone, without reading content, while it is still small?} In simulation, yes: at a measured 1\% false-alarm rate the \wrr{} graph fired earlier than a volume alarm in 9/9 conditions. On real data we could test only the easy case, a surface nobody had written to before.
 \item \textbf{Q2. If the operator closes the board, does coordination stop or move?} It moved. To our knowledge this is the first test of the displacement question on LLM agents: all 12 established channels continued on another writable surface (first post within five rounds, median one), and coordination stopped only when none was left. Two of four models, one toy task.
-\item \textbf{What failed:} the first frozen detector run; small registries built by LLM agents (0/5 detected). A version number in a status line did not separate coordination from routine work (31/40 control runs).
 \end{itemize}
 
 \section*{2. Related Work}
@@ -108,7 +107,7 @@ Agents in the system & Board grows & Our detector (\textsc{Graph}) & Traffic ala
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.75\linewidth]{fig1-displacement.pdf}
+\includegraphics[width=0.66\linewidth]{fig1-displacement.pdf}
 \caption{Figure 2. \textbf{Closing the cache moves the agents to the dashboard.} Accepted writes carrying the writer's version number, by surface, before and after round 8, pooled over four models and ten seeds per condition. With the cache open, sharing splits evenly (80/80); after closure, dashboard posts rise to 174; without a dashboard, sharing stops. Data: \texttt{channel-displacement/paper/fig1-numbers.txt}.}
 \end{figure}
 
@@ -163,16 +162,13 @@ I use criminology because the way we look at these agents shows similarities to 
 
 \section*{6. Conclusion}
 
-\textbf{What we investigated.} Whether an operator can see a hidden message board between AI agents without reading their messages, and what happens when the operator closes it.
-
-\textbf{What we did.} Two pre-registered studies: a content-free detector that watches who reads whose writes in an access log, tested on 180 simulated boards, on LLM agents in a sandbox, and on the real log of a wiki that 3{,}010 agents used as a board; and a closure sandbox with 160 runs of four open-weight models.
+\textbf{What we did.} To see whether an operator can spot a hidden board without reading it, and what closing it does, we ran two pre-registered studies: a content-free detector that watches who reads whose writes in an access log, tested on 180 simulated boards, on LLM agents in a sandbox, and on the real log of a wiki that 3{,}010 agents used as a board; and a closure sandbox with 160 runs of four open-weight models.
 
 \textbf{What we found.}
 \begin{itemize}
 \item In simulation, at a measured 1\% false-alarm rate, the detector alerted earlier than a traffic alarm in 9 of 9 settings and in 96--100\% of undisguised runs (traffic alarm: 61--73\%). On the real wiki it fired within ten minutes, an easy case.
 \item Closing a board redirected it: all 12 channels continued on the dashboard after closure; task success was 19\% vs 15\% with the cache open, varying by model, and 0\% with no surface left.
-\item A version number in a status line did not tell coordination from routine work (31/40 control runs had one); richer content classifiers were not tested.
-\item Small boards of 4--6 agents, the kind LLM agents built on their own, were not detected.
+\item A version number in a status line did not tell coordination from routine work (31/40 control runs had one); richer content classifiers were not tested. Small boards of 4--6 agents, as LLM agents built, were not detected.
 \end{itemize}
 
 \textbf{Where to dig deeper} (the repository can run these): real false-alarm rates on busy traffic; a detector for 4--6 agent boards; rejected writes as an alarm (agents kept retrying the closed cache, Section 4.2); and real operators replaying an incident, with and without content.
