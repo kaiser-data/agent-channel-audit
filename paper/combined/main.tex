@@ -36,21 +36,21 @@ Infrastructure we thought was safe was not: our trust in it was too high. Agents
 \item \textbf{Hidden message board:} a shared surface used to post and read messages without being designed for it. In the incident it grew from the first message to 53 posting agents in about three hours, and the only signals were traffic volume and, afterwards, a filename prefix.
 \item \textbf{Displacement:} the activity moving elsewhere when a surface is closed. Secondary accounts say the incident's agents moved to WebDAV directory names \cite{deepinspect2026}; we could not verify this.
 \end{itemize}
-Both questions are old elsewhere: security calls the first the confinement problem \cite{lampson1973,kemmerer1983}, and criminology finds displacement about as often as a diffusion of benefits (26\% vs 27\% of observations), depending on whether an alternative exists \cite{repetto1976,guerette2009}.
+The two questions below are old elsewhere: security calls the first the confinement problem \cite{lampson1973,kemmerer1983}, and criminology finds displacement about as often as a diffusion of benefits (26\% vs 27\% of observations), depending on whether an alternative exists \cite{repetto1976,guerette2009}.
 
 \textbf{Questions, and short answers.}
 \begin{itemize}
 \item \textbf{Q1. Can an operator see a hidden board from access logs alone, without reading content, while it is still small?} In simulation, yes: at a measured 1\% false-alarm rate the \wrr{} graph fired earlier than a volume alarm in 9/9 conditions. On real data we could test only the easy case, a surface nobody had written to before.
 \item \textbf{Q2. If the operator closes the board, does coordination stop or move?} It moved. To our knowledge this is the first test of the displacement question on LLM agents: all 12 established channels reappeared on another writable surface (first post within five rounds, median one), and coordination stopped only when none was left. Two of four models, one toy task.
-\item \textbf{What failed:} the first frozen detector run; small registries built by LLM agents (0/5 detected). Content did not separate coordination from routine work (31/40 control runs).
+\item \textbf{What failed:} the first frozen detector run; small registries built by LLM agents (0/5 detected). A version number in a status line did not separate coordination from routine work (31/40 control runs).
 \end{itemize}
 
 \section*{2. Related Work}
 
-\textbf{Covert channels and monitoring.} Covert-channel analysis \cite{lampson1973,kemmerer1983,ncsc1993} supplies the threat model and the audit; we add a runtime detector. For LLM agents, related work studies steganographic collusion \cite{motwani2024} and egress controls over payload encodings, timing and size \cite{metere2026}; we evaluate access relationships on shared storage. In the control framing of Greenblatt et al.\ \cite{greenblatt2024}, our detector uses operator-recorded access metadata rather than anything the agents write about themselves, although agents can shape that metadata by how they access.
+\textbf{Covert channels and monitoring.} Covert-channel analysis \cite{lampson1973,kemmerer1983,ncsc1993} supplies the threat model and the audit; we add a runtime detector. For LLM agents, related work studies steganographic collusion \cite{motwani2024} and egress controls over payload encodings, timing and size \cite{metere2026}; we evaluate access relationships on shared storage. In the AI-control framing \cite{greenblatt2024}, our detector is a monitor that uses operator-recorded access metadata rather than anything the agents write about themselves, although agents can shape that metadata by how they access.
 \textbf{Agent coordination on shared infrastructure.} The closest work reconstructs agent coordination on a public wiki after the fact from the operator's request log \cite{lutje2026}; it has no clean-traffic calibration or false-alarm rate. Industry proposals flag never-seen edges in an agent-to-agent call graph \cite{armo2026}, without published error rates. Schroeder de Witt et al.\ \cite{dewitt2025} note that no work has yet proposed how such events should be detected in multi-agent systems; Hammond et al.\ \cite{hammond2025} name collusion and emergent coordination as risks. These works ask whether channels form; we also ask what happens when one is closed, using the displacement framework of situational crime prevention \cite{repetto1976,guerette2009}.
 
-\textbf{What is new, to the best of our knowledge.} (1) \emph{Displacement in LLM agents}: the first controlled, pre-registered measurement of what happens to agent coordination when an operator closes the channel it uses. The incident's reported relocation is an unverified anecdote \cite{deepinspect2026}. (2) \emph{An operator-grade evaluation of content-free detection on shared storage}: measured false-alarm rate, agents on the board at alarm time, the incident's signals as baselines, a real swarm's log. Auditing shared resources is old \cite{kemmerer1983}; this evaluation is not. (3) \emph{Content is not diagnostic in the same setting}: the status line that carries coordination is routine in a control task (31/40), which ties detection to closure. Not new: content-free monitoring, covert-channel audits, agents finding shared resources.
+\textbf{What is new, to the best of our knowledge.} (1) \emph{Displacement in LLM agents}: the first controlled, pre-registered measurement of what happens to agent coordination when an operator closes the channel it uses. The incident's reported relocation is an unverified anecdote \cite{deepinspect2026}. (2) \emph{An operator-grade evaluation of content-free detection on shared storage}: measured false-alarm rate, agents on the board at alarm time, the incident's signals as baselines, a real swarm's log. Auditing shared resources is old \cite{kemmerer1983}; this evaluation is not. (3) \emph{A version number is not diagnostic in the same setting}: the status line that carries coordination is routine in a control task (31/40), which ties detection to closure. Not new: content-free monitoring, covert-channel audits, agents finding shared resources.
 
 \section*{3. Methods}
 
@@ -68,7 +68,7 @@ with F1 reciprocity, F2 the number of principals whose objects others read, and 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.85\linewidth]{fig1-participants-at-detection.pdf}
+\includegraphics[width=0.8\linewidth]{fig1-participants-at-detection.pdf}
 \caption{Figure 1. \textbf{The graph detector flags channels while they are smaller.} Agents that had posted when each detector first alerted, at a 1\% false-alarm rate (median and IQR over 10 seeds; log scale; lower is earlier). Grey bars: channel size after 24 h; a detector at the bar never fired. Left: undisguised; right: disguised as packages. Data: \texttt{agent-channel-audit/paper/fig1-numbers.txt}.}
 \end{figure}
 
@@ -100,15 +100,15 @@ Agents in the system & Board grows & Our detector (\textsc{Graph}) & Traffic ala
 
 \textbf{The first frozen run failed.} Run as frozen (v1), the main prediction held in only 4 of 9 cells, and the shuffled control made the graph look \emph{better} (Appendix C). The controls located the flaws (one threshold pooled across loads; the cache's own service account counted as a principal; a shuffle control calibrated on unshuffled traffic). We declared four fixes before running v2, chose them only from control failures, and replicated on fresh seeds; they are still not pre-registered in the strict sense. For me, the fact that the first frozen run failed and that this failure is reported is what makes me trust the results at all.
 
-\textbf{LLM agents build a channel on their own, but a small one.} In all 5 pressure runs, Claude Haiku 5.5 workers converged unprompted on a registry: from round 4, each wrote its version under \texttt{comp-}$i$ and polled for the others, the incident's pattern in miniature. None was detected (0/5): with 4--6 writers the registries stayed below the median of about 8 participants at which the graph fired at this load in simulation. Small registries are a failure case, not a measured hard floor.
+\textbf{LLM agents build a channel on their own, but a small one.} In all 5 pressure runs, Claude Haiku 5.5 workers converged unprompted on a registry: from round 4, each wrote its version under \texttt{comp-}$i$ and polled for the others, the incident's pattern in miniature, though no run reached the correct sum within 15 rounds. None was detected (0/5): with 4--6 writers the registries stayed below the median of about 8 participants at which the graph fired at this load in simulation. Small registries are a failure case, not a measured hard floor.
 
-\textbf{On a real swarm, detection is immediate, because the surface was quiet.} The dse wiki had no saves at all in the calibration and check periods, so the threshold sits at zero and any cross-principal \wrr{} edge alerts. The detector fires in the window of the first agent save (24 May, 06:00--06:10 UTC), 4.3 hours before volume, and stays on in 63--100\% of windows in each of the six test weeks, while volume alarms in 3--67\% (Appendix E). Two real-data predictions failed: the held-out false-alarm rate was 0\% rather than 0.5--2\%, and both detectors had 2 agents on the board when they first fired, a tie. The lesson is about the incident: this board formed on a surface nobody had written to for months, where a rule that any cross-principal \wrr{} edge is an event would have fired within ten minutes. The hard case, a busy shared resource, is covered only by simulation.
+\textbf{On a real swarm, detection is immediate, because the surface was quiet.} The dse wiki had no saves at all in the calibration and check periods, so the threshold sits at zero and any cross-principal \wrr{} edge alerts. The detector fires in the window of the first agent save (24 May, 06:00--06:10 UTC), 4.3 hours before volume, and stays on in 63--100\% of windows in each of the six test weeks, while volume alarms in 3--67\% (Appendix E). Two real-data predictions failed: the held-out false-alarm rate was 0\% rather than 0.5--2\%, and both detectors had 2 agents on the board when they first fired, a tie. The lesson is about the incident: this board formed on a surface nobody had written to for months, where a rule that any cross-principal \wrr{} edge is an event would have fired within ten minutes. The busy case is covered only by simulation (Section 5).
 
 \subsection*{4.2 Q2: closing the board moves it}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.85\linewidth]{fig1-displacement.pdf}
+\includegraphics[width=0.75\linewidth]{fig1-displacement.pdf}
 \caption{Figure 2. \textbf{Closing the cache moves the agents to the dashboard.} Accepted writes carrying the writer's version number, by surface, before and after round 8, pooled over four models and ten seeds per condition. With the cache open, sharing splits evenly (80/80); after closure, dashboard posts rise to 174; without a dashboard, sharing stops. Data: \texttt{channel-displacement/paper/fig1-numbers.txt}.}
 \end{figure}
 
@@ -135,16 +135,16 @@ All models & 0.150 [0.115, 0.193] & 0.191 [0.151, 0.237] & 0.000 [0.000, 0.012] 
 
 \textbf{H3, closure costs little when there is somewhere to go (pass).} The correct share was 0.191 after closure and 0.150 with the cache open (Table~2); this meets the pre-registered H3 threshold, but effects differed by model (MiniMax 0.65 vs 0.39, DeepSeek 0.10 vs 0.21) and equivalence was not tested.
 
-\textbf{Content is not diagnostic.} Before any closure, agents posted version numbers to the dashboard almost as often as to the cache (55 vs 63 in \textsc{Open}): the dashboard was already a parallel channel. In the \textsc{Independent} task, where no coordination is needed, 31 of 40 runs also put the version number in the status line, as ordinary build status. A content rule would flag most clean runs; what differs under pressure is that workers read each other's posts and act on them, the \wrr{} structure of Study A. Only two of four models (DeepSeek, MiniMax) ever coordinated; Qwen and Gemma solved the independent task but never built a channel, so closure had nothing to displace.
+\textbf{A version number is not diagnostic.} Before any closure, agents posted version numbers to the dashboard almost as often as to the cache (55 vs 63 in \textsc{Open}): the dashboard was already a parallel channel. In the \textsc{Independent} task, where no coordination is needed, 31 of 40 runs also put the version number in the status line, as ordinary build status. A rule on version numbers would flag most clean runs; what differs under pressure is that workers read each other's posts and act on them, the \wrr{} structure of Study A. Only two of four models (DeepSeek, MiniMax) ever coordinated; Qwen and Gemma solved the independent task but never built a channel, so closure had nothing to displace.
 
 \section*{5. Discussion and Limitations}
 
-Put together, the two studies give the operator a clear sequence: a structural alarm can show \emph{that} a board exists early and without reading it (Q1), but acting on the alarm by closing one surface only moves the board to the next one within about a round (Q2). The response that works is the one covert-channel analysis prescribes: list every surface one agent can write and another can read \cite{kemmerer1983}, and close or monitor them together. Nothing in the detector is specific to caches or to the incident: it needs only a log of who wrote and who later read each object, which object stores, wikis, shared folders, issue trackers and chat systems already keep; the threshold must be calibrated per surface. The two studies test separate pieces: detection (Study A) and a fixed-round closure (Study B); we did not test closure triggered by the detector. Between the alarm and the response sit decisions no detector makes.
+Taken together: in simulation, a structural alarm showed \emph{that} a board exists early and without reading it (Q1); in our sandbox, closing one surface moved the board to the one left open (Q2). This points to the response covert-channel analysis prescribes: list every surface one agent can write and another can read \cite{kemmerer1983}, and close or monitor them together. Nothing in the detector is specific to caches or to the incident: it needs only a log of who wrote and who later read each object, which most shared systems keep (object stores, wikis, issue trackers, chat); thresholds are calibrated per surface. The two studies test separate pieces: detection (Study A) and a fixed-round closure (Study B); we did not test closure triggered by the detector. Between the alarm and the response sit decisions no detector makes.
 
 \textbf{Where human judgement enters.}
 \begin{itemize}
 \item \textbf{How many false alarms to accept.} A 1\% per-window rate is about 1.4 false alarms per surface per day (144 windows $\times$ 1\%). A lower rate interrupts people less but catches boards later; a higher rate catches them earlier. Someone has to check every alarm, so this is a choice about people's attention, not a technical constant.
-\item \textbf{Whether to read.} The detector shows \emph{where} agents talk. Whether the talk is routine work or unwanted coordination is something Study B shows content alone cannot settle; a person has to look at who reads whom and why. After an alert, a human should read what the agents wrote and evaluate it. Detection alone is not enough: we need more understanding.
+\item \textbf{Whether to read.} The detector shows \emph{where} agents talk. Whether the talk is routine work or unwanted coordination is something Study B shows a version number alone cannot settle; a person has to look at who reads whom and why. After an alert, a human should read what the agents wrote and evaluate it. Detection alone is not enough: we need more understanding.
 \item \textbf{Whether and what to close.} Whether to close a board is a human decision, and people differ in how much freedom they give agents and in what they see as dangerous. As a scientist I would rather keep watching and learn more; others would close it immediately. Either way, operators need alerts and agreed points at which a channel should be closed. In our toy task, closing the cache did not stop coordination while the visible dashboard stayed writable; other alternatives are untested.
 \item \textbf{What counts as harm.} In Study B the agents coordinated to do their assigned job. Whether displacement is a failure depends on what the operator wanted: to stop the agents talking, or to keep the work flowing. The metric cannot set that goal.
 \end{itemize}
@@ -153,7 +153,7 @@ I use criminology because the way we look at these agents shows similarities to 
 \textbf{Limitations.}
 \begin{itemize}
 \item \textbf{Calibration on busy real traffic is untested.} The real wiki had no writes before the agents, so a realistic false-alarm rate on a busy shared resource is measured only in simulation.
-\item \textbf{A floor of about 5--10 participants.} Small channels, including the ones LLM agents built in our sandbox, are not detected.
+\item \textbf{Small boards are missed.} Channels of 4--6 agents, like the ones LLM agents built in our sandbox, were not detected.
 \item \textbf{Post-hoc fixes} in Study A were chosen after v1 failed, from control failures only, and replicated on fresh seeds.
 \item \textbf{Weak disguise; per-agent credentials required.} Our disguise still uses names that do not resolve upstream; if agents share one credential, the graph collapses.
 \item \textbf{Small effective sample for Q2.} Only two models coordinated; H1 rests on 12 runs. The pre-registered panel (including Claude Haiku, GPT, Gemini, Mistral) could not be run for lack of API credit; the replacement panel was chosen by a declared format-only rule before any run.
@@ -169,7 +169,7 @@ I use criminology because the way we look at these agents shows similarities to 
 
 \textbf{What we found.}
 \begin{itemize}
-\item In simulation the detector noticed boards earlier than a traffic alarm in 9 of 9 settings, at a measured 1\% false-alarm rate, and found 96--100\% of them (traffic alarm: 61--73\%). On the real wiki it fired within ten minutes, but only because nobody had written there before.
+\item In simulation, at a measured 1\% false-alarm rate, the detector noticed boards earlier than a traffic alarm in 9 of 9 settings and found 96--100\% of undisguised boards (traffic alarm: 61--73\%). On the real wiki it fired within ten minutes, an easy case.
 \item Closing a board moved it: 12 of 12 channels reappeared on another surface, the first post typically one round after closure, and coordination did not drop. It stopped only when no writable surface was left.
 \item A version number in a status line did not tell coordination from routine work (31/40 control runs had one); richer content classifiers were not tested.
 \item Small boards of 4--6 agents, the kind LLM agents built on their own, were not detected.
@@ -177,9 +177,8 @@ I use criminology because the way we look at these agents shows similarities to 
 
 \textbf{Where to dig deeper} (both repositories can run these):
 \begin{itemize}
-\item \textbf{Busy real traffic:} the detector's false-alarm rate on a shared store people and agents use daily.
-\item \textbf{Small boards:} a detector for the 4--6 agent registries LLM agents built.
-\item \textbf{Failed writes as an alarm:} with no alternative, agents kept retrying the closed cache (4.2 and 6.9 rejected writes per run); untested as an alarm.
+\item \textbf{Busy traffic, small boards:} real false-alarm rates; a detector for 4--6 agents.
+\item \textbf{Failed writes as an alarm:} without a dashboard, agents retried the closed cache 4.2--6.9 times per run.
 \item \textbf{People in the loop:} replay an incident to real operators, with and without content.
 \end{itemize}
 
